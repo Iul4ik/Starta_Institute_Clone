@@ -5,16 +5,16 @@
     height: 120vh;
     background-image: url(https://static.tildacdn.net/tild3562-6235-4431-b137-303965373237/Ellipse_136.png),
         url(https://static.tildacdn.net/tild3336-6163-4831-b765-653464313237/Ellipse_136.svg);
-    background-repeat: no-repeat, no-repeat;
-    background-position: -100% 0%, 50% 0%;
+        background-repeat: no-repeat, no-repeat;
+        background-position: -100% 0%, 50% 0%;
 }
 
 .img-first {
     position: absolute;
     top: 20%;
+    left: 35%;
     width: 25%;
     height: 450px;
-    left: 35%;
 }
 
 .img-second {
@@ -106,12 +106,13 @@
     top: 60%;
     z-index: 1001;
     white-space: nowrap;
-    width: 30%;
+    width: 25%;
     display: flex;
     flex-direction: column;
 }
 
 .explicite {
+    text-align: center;
     font-size: 15px;
 }
 

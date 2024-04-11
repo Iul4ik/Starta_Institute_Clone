@@ -30,6 +30,7 @@
     & .certificate_content {
         display: flex;
         align-items: center;
+        margin-top: 10%;
 
         & .certificate_button {
             width: 30%;
@@ -37,7 +38,7 @@
 
             & p {
                 font-size: 15px;
-                margin-bottom: -20px;
+                margin-bottom: -40px;
             }
         }
 
