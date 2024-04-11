@@ -1,0 +1,1328 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Starta Institute Clone</title>
+</head>
+
+<body>
+    <!-- <Шапка Страницы> -->
+    <header class="header">
+        <div class="left-header">
+            <div class="logo">
+                <img id="reloadImage"
+                    src="https://static.tildacdn.net/tild3066-6539-4639-b262-336135376364/Group_2650.svg" alt="logo">
+            </div>
+            <div class="translate">
+                <button id="ru" data-btn="ru" class="ru header__btn">ru</button>
+                <button id="en" data-btn="en" class="en header__btn">en</button>
+            </div>
+        </div>
+        <div class="nav">
+            <a class="nav-a box1" href="#about" data-lang="about"></a>
+            <a class="nav-a box2" href="#programmes" data-lang="programmes"></a>
+            <a class="nav-a box3" href="#teachers" data-lang="professors"></a>
+            <a class="nav-a box4" href="#feedback" data-lang="feedback"></a>
+            <a class="nav-a box5" href="#funding" data-lang="funding"></a>
+            <a class="nav-a box6" href="#" data-lang="referal"></a>
+            <!-- <a class="nav-a box6" href="https://startainstitute.com/referral/" data-lang="referal"></a> -->
+            <a class="nav-a box7" href="#contact" data-lang="contacts"></a>
+        </div>
+    </header>
+    <!-- </Шапка Страницы> -->
+
+    <!-- <Шапка Страницы Burger> -->
+    <header class="header-burger">
+        <div class="left-header">
+            <div class="logo-burger">
+                <img src="https://static.tildacdn.net/tild3066-6539-4639-b262-336135376364/Group_2650.svg" alt="logo">
+            </div>
+            <div class="translate-burger">
+                <button id="ru" data-btn="ru" class="ru header__btn-burger-ru">ru</button>
+                <button id="en" data-btn="en" class="en header__btn-burger-en">en</button>
+            </div>
+        </div>
+        <nav class="nav-burger">
+            <ul class="nav-ul_burger">
+                <li class="nav-ul_li-burger">
+                    <a class="nav-ul_li-a_burger" onclick="openNav()" data-lang="menu"></a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <!-- </Шапка Страницы Burger> -->
+
+    <!-- <Контент Страницы Burger> -->
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a data-lang="about-burger" href="#about" onclick="closeNav()"></a>
+        <a data-lang="programmes-burger" href="#programmes" onclick="closeNav()"></a>
+        <a data-lang="professors-burger" href="#teachers" onclick="closeNav()"></a>
+        <a data-lang="feedback-burger" href="#feedback" onclick="closeNav()"></a>
+        <a data-lang="funding-burger" href="#funding" onclick="closeNav()"></a>
+        <a data-lang="referal-burger" href="#" onclick="closeNav()"></a>
+        <a data-lang="contacts-burger" href="#contact" onclick="closeNav()"></a>
+        <button data-lang="apply" onclick="openPopup('popup')" class="register open-popup"></button>
+    </div>
+    <!-- </Контент Страницы Burger> -->
+
+    <!-- <Весь Контент> -->
+    <main>
+        <!-- <Баннер>  -->
+        <section class="first-content content1">
+
+            <h1 class="title-content">
+                <div class="parent">
+                    <span data-lang="h1Span1Title"></span>
+                    <br>
+                    <span data-lang="h1Span2Title"></span>
+                    <br>
+                    <span data-lang="h1Span3Title"></span>
+                    <div class="a a1"></div>
+                    <div class="a a2"></div>
+                </div>
+            </h1>
+
+            <p class="text-content_bottom">
+                <span data-lang="text-content_bottom1"></span>
+                <br>
+                <span data-lang="text-content_bottom2"></span>
+                <br>
+                <span data-lang="text-content_bottom3"></span>
+            </p>
+
+            <p class="text-content_info">
+                <span data-lang="info1"></span>
+                <br>
+                <span data-lang="info2"></span>
+                <br>
+                <span data-lang="info3"></span>
+            </p>
+
+            <img class="img-first" src="./img/build.png" alt="">
+            <img class="img-second" src="./img/Mask_group.jpg" alt="">
+            <img class="img-thirt" src="./img/close-up-man-writing.jpg" alt="">
+            <div class="btn-popup">
+                <span class="explicite" data-lang="explicite"></span>
+                <button onclick="openPopup('popup')" class="btn-register open-popup">
+                    <span data-lang="register"></span>
+                    <img class="arrow" width="32" height="32"
+                        src="https://img.icons8.com/windows/32/000000/down-left-arrow.png" alt="down-left-arrow" />
+                </button>
+            </div>
+
+            <div class="line-number">
+                <hr>
+                <div class="line-number_child">
+
+                    <div class="second-content_text">
+                        <div class="b"><span>01</span></div>
+                        <p class="second-content-p" data-lang="second-content_1">
+                        </p>
+                    </div>
+
+                    <div class="second-content_text">
+                        <div class="b"><span>02</span></div>
+                        <p class="second-content-p" data-lang="second-content_2">
+                        </p>
+                    </div>
+
+                    <div class="second-content_text">
+                        <div class="b"><span>03</span></div>
+                        <p class="second-content-p" data-lang="second-content_3"></p>
+                    </div>
+
+                    <div class="second-content_text">
+                        <div class="b"><span>04</span></div>
+                        <p class="second-content-p" data-lang="second-content_4"></p>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <!-- </Баннер> -->
+
+        <!-- <Попап> -->
+        <div id="popup" class="popup popup_form">
+            <div class="popup-content">
+
+                <div class="yellow-circle">
+                    <div class="circle"></div>
+                    <span class="circle-title" data-lang="popup-span"></span>
+                    <button onclick="closePopup('popup')"><img
+                            src="	https://static.tildacdn.net/tild6164-3139-4265-b636-613863336131/close.svg"
+                            alt=""></button>
+                </div>
+
+                <div class="last_form-content">
+                    <div class="last_form-content__left">
+                        <h2 data-lang="popup-h2"></h2>
+                    </div>
+
+                    <div class="last_form-content__right">
+                        <form>
+
+                            <div class="name-group">
+                                <div class="form-group">
+                                    <input type="text" id="first_name" class="first_name" name="first_name"
+                                        placeholder="Имя (на английском)*">
+                                </div>
+
+                                <div class="form-group">
+                                    <input type="text" id="last_name" class="last_name" name="last_name"
+                                        placeholder="Фамилия (на английском)*">
+                                </div>
+                            </div>
+
+
+                            <div class="input-group">
+                                <div class="form-group">
+                                    <select id="country1" name="country">
+                                        <option value="+49" selected>Germany</option>
+                                    </select>
+                                </div>
+
+                                <div class="form-group">
+                                    <input type="text" id="phone_number1" name="phone_number"
+                                        placeholder="Номер телефона" value="+49">
+                                </div>
+                            </div>
+
+                            <div class="email-group">
+                                <input type="email" id="email" name="email" placeholder="Email*">
+                            </div>
+
+                            <select class="select_programm" name="choose" id="select">
+                                <option value="" disabled selected>Select Programm</option>
+                                <option value="variant1">Front-End Development</option>
+                                <option value="variant2">Back-End Development</option>
+                                <option value="variant3">QA Testing</option>
+                                <option value="variant4">Digital Marketer</option>
+                            </select>
+
+
+                            <label class="checkbox-container">
+                                <input type="checkbox">
+                                I agree with the <a href="#" style="margin-left: 5px; color:#111;">Privacy
+                                    Policy*</a>
+                            </label>
+                            <button class="send" data-lang="send-popup">Send</button>
+                        </form>
+
+                    </div>
+
+                </div>
+                <!-- Содержимое попапа -->
+            </div>
+        </div>
+        <!-- </Попап> -->
+        <!-- <Второй Контент> -->
+        <section class="second-content" id="about">
+
+            <div class="yellow-circle">
+                <div class="circle"></div>
+                <span data-lang="about-span"></span>
+            </div>
+
+            <h2 class="about-h2" data-lang="about-h2"></h2>
+
+            <div class="about-us">
+                <p>
+                    <span class="img-arrow"><img src="./img/arrow-right.svg" alt=""></span>
+                    <span data-lang="about-p_1-1"></span>
+                    <span data-lang="about-span_1" class="about-color"></span>
+                    <span data-lang="about-p_1-2"></span>
+                </p>
+            </div>
+
+            <div class="about-us">
+                <p>
+                    <span class="img-arrow"><img src="./img/arrow-right.svg" alt=""></span>
+                    <span data-lang="about-span_2" class="about-color"></span>
+                    <span data-lang="about-p_2"></span>
+                </p>
+            </div>
+
+            <div class="about-us">
+                <p>
+                    <span class="img-arrow"><img src="./img/arrow-right.svg" alt=""></span>
+                    <span data-lang="about-p_3-1"></span>
+                    <span data-lang="about-span_3" class="about-color"></span>
+                    <span data-lang="about-p_3-2"></span>
+                </p>
+            </div>
+
+            <div class="about-img">
+                <img src="./img/about.jpg" alt="">
+
+                <div>
+
+                    <div class="white-circle_span">
+                        <div class="white-circle"></div>
+                        <span data-lang="about-circle-1">
+                        </span>
+                    </div>
+
+                    <div class="white-circle_span">
+                        <div class="white-circle"></div>
+                        <span data-lang="about-circle-2">
+                        </span>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <!-- </Второй Контент> -->
+
+        <!-- <Третий Контент> -->
+        <section class="thirt-content">
+            <h1 class="marquee"><span></span></h1>
+            <div class="marquee1">
+                <img src="https://static.tildacdn.net/tild3964-3631-4436-a439-646262636437/Group_660.png" alt="">
+                <img src="https://static.tildacdn.net/tild3964-3631-4436-a439-646262636437/Group_660.png" alt="">
+            </div>
+            <div class="marquee2">
+                <img src="https://static.tildacdn.net/tild3835-3661-4636-b636-366162363330/Group_661.png" alt="">
+                <img src="https://static.tildacdn.net/tild3835-3661-4636-b636-366162363330/Group_661.png" alt="">
+            </div>
+            <div class="marquee1">
+                <img src="https://static.tildacdn.net/tild3165-6361-4666-b338-323066313364/Group_662.png" alt="">
+                <img src="https://static.tildacdn.net/tild3165-6361-4666-b338-323066313364/Group_662.png" alt="">
+            </div>
+            <hr>
+        </section>
+        <!-- </Третий Контент> -->
+
+        <!-- <Первый Слайдер> -->
+        <section class="slider">
+
+            <div class="yellow-circle" id="programmes">
+                <div class="circle"></div>
+                <span data-lang="history"></span>
+            </div>
+
+            <h2 class="slider-title" data-lang="h2-first_slider"></h2>
+
+            <div class="wrapper">
+
+                <div class="slider-control">
+                    <hr>
+                    <i id="left">
+                        <img class="left-arrow" src="./img/arrow-right.svg" alt="">
+
+                    </i>
+                    <i id="right">
+                        <img class="right-arrow" src="./img/arrow-right.svg" alt="">
+                    </i>
+                </div>
+
+                <ul class="carousel">
+
+                    <li class="card">
+                        <div class="img">
+                            <img src="https://optim.tildacdn.net/tild6335-3230-4265-b166-353565613835/-/cover/300x300/center/center/-/format/webp/Mask_group-10.jpg"
+                                alt="img" draggable="false">
+                        </div>
+                        <div class="big-circle_active"></div>
+                        <h2 data-lang="point-first"></h2>
+                        <span data-lang="point-first_description"></span>
+                    </li>
+
+                    <li class="card">
+                        <div class="img">
+                            <img src="https://optim.tildacdn.net/tild6230-3130-4139-a662-646665383638/-/cover/260x260/center/center/-/format/webp/Mask_group.jpg"
+                                alt="img" draggable="false">
+                        </div>
+                        <div class="big-circle"></div>
+                        <h2 data-lang="point-second">After 1 month</h2>
+                        <span data-lang="point-second_description">As a Starta Institute student, you gradually immerse
+                            yourself in a new profession under
+                            the guidance of our teachers and curators.</span>
+                    </li>
+
+                    <li class="card">
+                        <div class="img">
+                            <img src="https://optim.tildacdn.net/tild3530-3835-4133-b635-333164643336/-/cover/260x260/center/center/-/format/webp/Mask_group-2.jpg"
+                                alt="img" draggable="false">
+                        </div>
+                        <div class="big-circle"></div>
+                        <h2 data-lang="point-thirt"></h2>
+                        <span data-lang="point-thirt_description">
+                        </span>
+                    </li>
+
+                    <li class="card">
+                        <div class="img">
+                            <img src="https://optim.tildacdn.net/tild6364-3933-4832-a232-306361333937/-/cover/260x260/center/center/-/format/webp/Mask_group-1.jpg"
+                                alt="img" draggable="false">
+                        </div>
+                        <div class="big-circle"></div>
+                        <h2 data-lang="point-fourth"></h2>
+                        <span data-lang="point-fourth_description"></span>
+                    </li>
+
+                    <li class="card">
+                        <div class="img">
+                            <img src="https://optim.tildacdn.net/tild3966-3661-4535-a631-363837326661/-/cover/250x250/center/center/-/format/webp/Mask_group-3.jpg"
+                                alt="img" draggable="false">
+                        </div>
+                        <div class="big-circle"></div>
+                        <h2 data-lang="point-firth"></h2>
+                        <span data-lang="point-firth_description"></span>
+                    </li>
+
+                    <li class="card">
+                        <div class="img">
+                            <img src="https://optim.tildacdn.net/tild6561-3730-4435-a562-363462633533/-/cover/280x280/center/center/-/format/webp/Mask_group-1-3.jpg"
+                                alt="img" draggable="false">
+                        </div>
+                        <div class="big-circle_active"></div>
+                        <h2 data-lang="point-six"></h2>
+                        <span data-lang="point-six_description"></span>
+                    </li>
+
+                </ul>
+
+            </div>
+
+        </section>
+        <!-- </Первый Слайдер> -->
+
+        <!-- <Кнопка> -->
+        <div class="btn" onclick="openPopup('popup')">
+            <span data-lang="text-button_after-slider"></span>
+
+            <button class="open-popup" style="z-index: 900;">
+                <span style="color: #111; margin-top: 20px;" data-lang="button-after_slider"></span>
+                <img class="arrow" width="32" height="32"
+                    src="https://img.icons8.com/windows/32/000000/down-left-arrow.png" alt="down-left-arrow" />
+            </button>
+        </div>
+        <!-- </Кнопка> -->
+
+        <!-- <Второй Слайдер> -->
+        <section class="slider slider2">
+
+            <div class="yellow-circle">
+                <div class="circle"></div>
+                <span class="circle-title" data-lang="about-slider_two"></span>
+            </div>
+
+            <h2 class="slider-title" data-lang="about-slider_two-h2"></h2>
+            <p style="font-size: 30px;" data-lang="about-slider_two-p">
+
+            </p>
+
+            <div class="wrapper wrapper1">
+
+                <div class="slider-control">
+                    <hr>
+                    <i id="left">
+                        <img class="left-arrow" src="./img/arrow-right.svg" alt="">
+
+                    </i>
+                    <i id="right">
+                        <img class="right-arrow" src="./img/arrow-right.svg" alt="">
+                    </i>
+                </div>
+
+                <ul class="carousel carousel1">
+
+                    <li class="card card1 option option1">
+
+                        <div class="option-top">
+                            <div class="yellow-circle option-border">
+                                <div class="circle"></div>
+                                <div class="option-variant">Option №1</div>
+                            </div>
+                            <div class="arrow-move">
+                                <img class="arrow" width="32" height="32"
+                                    src="https://img.icons8.com/windows/32/000000/down-left-arrow.png"
+                                    alt="down-left-arrow" />
+                            </div>
+                        </div>
+
+                        <h2 class="option-h2" data-lang="option-h2_first"></h2>
+                        <img class="img-option"
+                            src="https://static.tildacdn.net/tild3830-3035-4335-b638-303563613539/Mask_group-11.jpg"
+                            alt="">
+
+                        <div class="border-option">
+                            <div class="border border-option_active" data-lang="border-option_active-first"></div>
+                            <div class="border" data-lang="border-vacantion_first"></div>
+                            <div class="border" data-lang="border-duration_first"></div>
+                            <div class="border" data-lang="border-long_time-first"></div>
+                            <hr style="border: 2px solid;">
+                            <div class="option-grid">
+                                <div class="border">html</div>
+                                <div class="border">css</div>
+                                <div class="border">js</div>
+                                <div class="border">react</div>
+                                <div class="border">redux</div>
+                            </div>
+                        </div>
+
+                        <p class="option-p" data-lang="option-p_first-first">
+
+                        </p>
+                        <br>
+                        <p class="option-p" data-lang="option-p_first-second">
+
+                        </p>
+                        <hr class="hr-dashed-bg">
+
+                        <button class="option-btn">
+                            <span data-lang="learn-more_one"></span>
+                            <img class="arrow" width="32" height="32"
+                                src="https://img.icons8.com/windows/32/000000/down-left-arrow.png"
+                                alt="down-left-arrow" />
+                        </button>
+
+                    </li>
+
+                    <li class="card card2 option option2">
+
+                        <div class="option-top">
+                            <div class="yellow-circle option-border">
+                                <div class="circle"></div>
+                                <div class="option-variant">Option №2</div>
+                            </div>
+                            <div class="arrow-move">
+                                <img class="arrow" width="32" height="32"
+                                    src="https://img.icons8.com/windows/32/000000/down-left-arrow.png"
+                                    alt="down-left-arrow" />
+                            </div>
+                        </div>
+
+                        <h2 class="option-h2" data-lang="option-h2_second"></h2>
+                        <img class="img-option"
+                            src="https://static.tildacdn.net/tild3764-3139-4333-b538-653635623965/Mask_group-12.jpg"
+                            alt="">
+
+                        <div class="border-option">
+                            <div class="border border-option_active" data-lang="border-option_active-second"></div>
+                            <div class="border" data-lang="border-vacantion_second"></div>
+                            <div class="border" data-lang="border-duration_second"></div>
+                            <div class="border" data-lang="border-long_time-second"></div>
+                            <hr style="border: 2px solid;">
+                            <div class="option-grid">
+                                <div class="border">spring</div>
+                                <div class="border">Java</div>
+                            </div>
+                        </div>
+
+                        <p class="option-p" data-lang="option-p_second-first">
+
+                        </p>
+                        <br>
+                        <p class="option-p" data-lang="option-p_second-second">
+
+                        </p>
+                        <hr class="hr-dashed-bg">
+
+                        <button class="option-btn">
+                            <span data-lang="learn-more_two"></span>
+                            <img class="arrow" width="32" height="32"
+                                src="https://img.icons8.com/windows/32/000000/down-left-arrow.png"
+                                alt="down-left-arrow" />
+                        </button>
+                    </li>
+
+                    <li class="card card3  option option3">
+
+                        <div class="option-top">
+                            <div class="yellow-circle option-border">
+                                <div class="circle"></div>
+                                <div class="option-variant">Option №3</div>
+                            </div>
+                            <div class="arrow-move">
+                                <img class="arrow" width="32" height="32"
+                                    src="https://img.icons8.com/windows/32/000000/down-left-arrow.png"
+                                    alt="down-left-arrow" />
+                            </div>
+                        </div>
+
+                        <h2 class="option-h2" data-lang="option-h2_thirt"></h2>
+                        <img class="img-option"
+                            src="https://static.tildacdn.net/tild6665-3562-4865-b665-333466323338/Mask_group-13.jpg"
+                            alt="">
+
+                        <div class="border-option">
+                            <div class="border border-option_active" data-lang="border-option_active-thirt"></div>
+                            <div class="border" data-lang="border-vacantion_thirt"></div>
+                            <div class="border" data-lang="border-duration_thirt"></div>
+                            <div class="border" data-lang="border-long_time-thirt"></div>
+                            <hr style="border: 2px solid;">
+                            <div class="option-grid">
+                                <div class="border">Java</div>
+                                <div class="border">Python</div>
+                            </div>
+                        </div>
+
+                        <p class="option-p" data-lang="option-p_thirt-first">
+
+                        </p>
+                        <br>
+                        <p class="option-p" data-lang="option-p_thirt-second">
+
+                        </p>
+                        <hr class="hr-dashed-bg">
+
+                        <button class="option-btn">
+                            <span data-lang="learn-more_three"></span>
+                            <img class="arrow" width="32" height="32"
+                                src="https://img.icons8.com/windows/32/000000/down-left-arrow.png"
+                                alt="down-left-arrow" />
+                        </button>
+
+                    </li>
+
+                    <li class="card card4 option option4">
+
+                        <div class="option-top">
+                            <div class="yellow-circle option-border">
+                                <div class="circle"></div>
+                                <div class="option-variant">Option №4</div>
+                            </div>
+                            <div class="arrow-move">
+                                <img class="arrow" width="32" height="32"
+                                    src="https://img.icons8.com/windows/32/000000/down-left-arrow.png"
+                                    alt="down-left-arrow" />
+                            </div>
+                        </div>
+
+                        <h2 class="option-h2" data-lang="option-h2_fourth"></h2>
+                        <img class="img-option"
+                            src="https://static.tildacdn.net/tild3562-3031-4632-a638-393938666338/Frame_24-5.jpg">
+                        <div class="border-option">
+                            <div class="border border-option_active" data-lang="border-option_active-fourth"></div>
+                            <div class="border" data-lang="border-vacantion_fourth"></div>
+                            <div class="border" data-lang="border-duration_fourth"></div>
+                            <div class="border" data-lang="border-long_time-fourth"></div>
+                            <hr style="border: 2px solid;">
+                            <div class="option-grid">
+                                <div class="border">SMM</div>
+                                <div class="border">HTML</div>
+                                <div class="border">SEO</div>
+                                <div class="border">Google Analytics</div>
+                                <div class="border">Facebook Ads</div>
+                            </div>
+                        </div>
+
+                        <p class="option-p" data-lang="option-p_fourth-first">
+
+                        </p>
+                        <br>
+                        <p class="option-p" data-lang="option-p_fourth-second">
+
+                        </p>
+                        <hr class="hr-dashed-bg">
+
+                        <button class="option-btn">
+                            <span data-lang="learn-more_four"></span>
+                            <img class="arrow" width="32" height="32"
+                                src="https://img.icons8.com/windows/32/000000/down-left-arrow.png"
+                                alt="down-left-arrow" />
+                        </button>
+
+                    </li>
+
+                </ul>
+            </div>
+        </section>
+        <!--  </Второй Слайдер> -->
+
+        <!-- <Про Обучение> -->
+        <section class="learn-background">
+            <div class="learn">
+
+                <div class="yellow-circle">
+                    <div class="circle"></div>
+                    <span class="circle-title" data-lang="about-learn"></span>
+                </div>
+
+                <h2 data-lang="about-learn_h2">Что вы будете делать во время обучения?</h2>
+
+                <div class="learn-grid">
+                    <div class="yellow">
+                        <svg class="arrow" xmlns="http://www.w3.org/2000/svg" width="24" height="24">
+                            <path d="M7 7h8.586L5.293 17.293l1.414 1.414L17 8.414V17h2V5H7v2z" />
+                        </svg>
+                        <p data-lang="about-learn_p1">живые онлайн-лекции топовых преподавателей, возможность задавать
+                            вопросы и получать обратную
+                            связь</p>
+                    </div>
+                    <div class="yellow">
+                        <svg class="arrow" xmlns="http://www.w3.org/2000/svg" width="24" height="24">
+                            <path d="M7 7h8.586L5.293 17.293l1.414 1.414L17 8.414V17h2V5H7v2z" />
+                        </svg>
+                        <p data-lang="about-learn_p2">углубленные знания по выбранной специальности, 960 часов лучших
+                            практик</p>
+                    </div>
+                    <div class="black">
+                        <svg class="arrow" xmlns="http://www.w3.org/2000/svg" width="24" height="24">
+                            <path d="M7 7h8.586L5.293 17.293l1.414 1.414L17 8.414V17h2V5H7v2z" />
+                        </svg>
+                        <p data-lang="about-learn_p3">готовое портфолио, помощь в подготовке резюме и тренировочные
+                            собеседования</p>
+                    </div>
+                    <div class="black">
+                        <svg class="arrow" xmlns="http://www.w3.org/2000/svg" width="24" height="24">
+                            <path d="M7 7h8.586L5.293 17.293l1.414 1.414L17 8.414V17h2V5H7v2z" />
+                        </svg>
+                        <p data-lang="about-learn_p4">знакомство с индустрией, ее основными профессиями и возможность
+                            выбрать свою</p>
+                    </div>
+                    <div class="yellow">
+                        <svg class="arrow" xmlns="http://www.w3.org/2000/svg" width="24" height="24">
+                            <path d="M7 7h8.586L5.293 17.293l1.414 1.414L17 8.414V17h2V5H7v2z" />
+                        </svg>
+                        <p data-lang="about-learn_p5">возможность зарабатывать баллы за помощь другим и тратить их на
+                            привлекательные бонусы в IT
+                            shop</p>
+                    </div>
+                    <div class="yellow">
+                        <svg class="arrow" xmlns="http://www.w3.org/2000/svg" width="24" height="24">
+                            <path d="M7 7h8.586L5.293 17.293l1.414 1.414L17 8.414V17h2V5H7v2z" />
+                        </svg>
+                        <p data-lang="about-learn_p6">обучение на русском языке с возможностью подтянуть уровень
+                            английского</p>
+                    </div>
+                    <div class="black">
+                        <svg class="arrow" xmlns="http://www.w3.org/2000/svg" width="24" height="24">
+                            <path d="M7 7h8.586L5.293 17.293l1.414 1.414L17 8.414V17h2V5H7v2z" />
+                        </svg>
+                        <p data-lang="about-learn_p7">европейский сертификат государственного образца</p>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <!-- </Про Обучение> -->
+
+        <!-- <Про Учителей> -->
+        <section id="teachers" class="slider teachers">
+
+            <div class="yellow-circle" id="programmes">
+                <div class="circle"></div>
+                <span data-lang="who-teach"></span>
+            </div>
+
+            <h2 class="slider-title" data-lang="who-teach_h2"> <span></span>
+            </h2>
+
+            <div class="wrapper">
+
+                <div class="slider-control">
+                    <p data-lang="slider-text"></p>
+                    <i id="left">
+                        <img class="left-arrow" src="./img/arrow-right.svg" alt="">
+
+                    </i>
+                    <i id="right">
+                        <img class="right-arrow" src="./img/arrow-right.svg" alt="">
+                    </i>
+                </div>
+
+                <ul class="carousel">
+
+                    <li class="card">
+                        <div class="card_img">
+                            <img src="https://static.tildacdn.net/tild6462-3938-4337-a561-656561323661/Mask_group-1.jpg"
+                                alt="img" draggable="false">
+                        </div>
+                        <h2 data-lang="who-teach_h2-name1"></h2>
+                        <span data-lang="who-teach_experience1">
+                        </span>
+                    </li>
+
+                    <li class="card">
+                        <div class="card_img">
+                            <img src="	https://static.tildacdn.net/tild3030-6636-4636-a230-313135386539/69766822_50476027030.png"
+                                alt="img" draggable="false">
+                        </div>
+                        <h2 data-lang="who-teach_h2-name2"></h2>
+                        <span data-lang="who-teach_experience2">
+                        </span>
+                    </li>
+
+                    <li class="card">
+                        <div class="card_img">
+                            <img src="	https://static.tildacdn.net/tild6565-3632-4238-b534-346165623637/Gegham_Barseghyan_1.png"
+                                alt="img" draggable="false">
+                        </div>
+                        <h2 data-lang="who-teach_h2-name3"></h2>
+                        <span data-lang="who-teach_experience3">
+                        </span>
+                    </li>
+
+                    <li class="card">
+                        <div class="card_img">
+                            <img src="	https://static.tildacdn.net/tild3034-3161-4130-b231-646539356435/11013288_94548015217.png"
+                                alt="img" draggable="false">
+                        </div>
+                        <h2 data-lang="who-teach_h2-name4"></h2>
+                        <span data-lang="who-teach_experience4">
+                        </span>
+                    </li>
+
+                    <li class="card">
+                        <div class="card_img">
+                            <img src="	https://static.tildacdn.net/tild6163-6636-4238-b633-396339653333/181500239_3051995979.png"
+                                alt="img" draggable="false">
+                        </div>
+                        <h2 data-lang="who-teach_h2-name5"></h2>
+                        <span data-lang="who-teach_experience5">
+                        </span>
+                    </li>
+
+                    <li class="card">
+                        <div class="card_img">
+                            <img src="	https://static.tildacdn.net/tild3366-3062-4136-b362-343235633731/Mask_group.jpg"
+                                alt="img" draggable="false">
+                        </div>
+                        <h2 data-lang="who-teach_h2-name6"></h2>
+                        <span data-lang="who-teach_experience6">
+                        </span>
+                    </li>
+
+                    <li class="card">
+                        <div class="card_img">
+                            <img src="	https://static.tildacdn.net/tild6565-6435-4766-a436-613834366664/philip.jpg"
+                                alt="img" draggable="false">
+                        </div>
+                        <h2 data-lang="who-teach_h2-name7"></h2>
+                        <span data-lang="who-teach_experience7"><br>
+                        </span>
+                    </li>
+                </ul>
+
+            </div>
+
+        </section>
+        <!-- </Про Учителей> -->
+
+        <!-- <Отзывы> -->
+        <section id="feedback" class="slider reviews">
+
+            <div class="yellow-circle" id="programmes">
+                <div class="circle"></div>
+                <span data-lang="about-feedback"></span>
+            </div>
+
+
+            <div class="wrapper">
+
+                <div class="slider-control">
+                    <h2 class="slider-title" data-lang="about-feedback_h2"></h2>
+                    <i id="left">
+                        <img class="left-arrow" src="./img/arrow-right.svg" alt="">
+                    </i>
+                    <i id="right">
+                        <img class="right-arrow" src="./img/arrow-right.svg" alt="">
+                    </i>
+                </div>
+
+                <ul class="carousel">
+
+                    <li class="card">
+                        <p data-lang="feedback-p1"></p>
+                        <div class="profile_review">
+                            <div class="profile_img">
+                                <img src="https://static.tildacdn.net/tild3063-3935-4139-a637-636631303033/julian-wan-WNoLnJo7t.jpg"
+                                    alt="">
+                            </div>
+                            <div class="star">
+                                <h5 data-lang="feedback-h5_1"></h5>
+                                <img src="https://static.tildacdn.net/tild6165-3032-4366-a236-663265656330/2.svg"
+                                    alt="">
+                                <span>5,0</span>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li class="card">
+                        <p data-lang="feedback-p2"></p>
+                        <div class="profile_review">
+                            <div class="profile_img">
+                                <img src="	https://static.tildacdn.net/tild6666-3961-4066-b239-303137616538/derick-mckinney-kfN-.jpg"
+                                    alt="">
+                            </div>
+                            <div class="star">
+                                <h5 data-lang="feedback-h5_2"></h5>
+                                <img src="	https://static.tildacdn.net/tild3738-3765-4831-a330-323335643539/DB.svg"
+                                    alt="">
+                                <span>4,9</span>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li class="card">
+                        <p data-lang="feedback-p3"></p>
+                        <div class="profile_review">
+                            <div class="profile_img">
+                                <img src="	https://static.tildacdn.net/tild3635-3265-4330-a161-383061393939/austin-wade-X6Uj51n5.jpg"
+                                    alt="">
+                            </div>
+                            <div class="star">
+                                <h5 data-lang="feedback-h5_3"></h5>
+                                <img src="	https://static.tildacdn.net/tild3736-3032-4939-b035-306439396232/1.svg"
+                                    alt="">
+                                <span>4,8</span>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li class="card">
+                        <p data-lang="feedback-p4"> </p>
+                        <div class="profile_review">
+                            <div class="profile_img">
+                                <img src="https://static.tildacdn.net/tild3136-3831-4831-a338-653362613263/jenny-ueberberg-9xXY.jpg"
+                                    alt="">
+                            </div>
+                            <div class="star">
+                                <h5 data-lang="feedback-h5_4"></h5>
+                                <img src="	https://static.tildacdn.net/tild3736-3032-4939-b035-306439396232/1.svg"
+                                    alt="">
+                                <span>4,6</span>
+                            </div>
+                        </div>
+                    </li>
+
+
+                    <li class="card">
+                        <p data-lang="feedback-p5">
+                        </p>
+                        <div class="profile_review">
+                            <div class="profile_img">
+                                <img src="	https://static.tildacdn.net/tild3765-3865-4139-b933-623435626362/laura-chouette-nkWnc.jpg"
+                                    alt="">
+                            </div>
+                            <div class="star">
+                                <h5 data-lang="feedback-h5_5"></h5>
+                                <img src="	https://static.tildacdn.net/tild3736-3032-4939-b035-306439396232/1.svg"
+                                    alt="">
+                                <span>4,7</span>
+                            </div>
+                        </div>
+                    </li>
+
+
+
+                </ul>
+
+            </div>
+
+        </section>
+        <!-- </Отзывы> -->
+
+        <!-- <Отзывы(Видео)> -->
+        <section class="slider succes">
+
+            <div class="yellow-circle" id="programmes">
+                <div class="circle"></div>
+                <span data-lang="feedback-video_span"></span>
+            </div>
+
+
+            <div class="wrapper">
+
+                <div class="slider-control">
+                    <h2 class="slider-title" data-lang="feedback-video_h2"><br> </h2>
+                    <i id="left">
+                        <img class="left-arrow" src="./img/arrow-right.svg" alt="">
+
+                    </i>
+                    <i id="right">
+                        <img class="right-arrow" src="./img/arrow-right.svg" alt="">
+                    </i>
+                </div>
+
+                <ul class="carousel">
+
+
+                    <li class="card">
+                        <div class="card_img card_img-one photo">
+                            <img class="play"
+                                src="https://static.tildacdn.net/tild6630-3964-4261-b230-313766353664/Group_48.svg"
+                                alt="">
+                        </div>
+                        <h2 data-lang="feedback-video_name1"></h2>
+                        <span data-lang="feedback-video_span1"></span>
+                    </li>
+
+                    <li class="card">
+                        <div class="card_img card_img-two photo">
+                            <img class="play"
+                                src="https://static.tildacdn.net/tild6630-3964-4261-b230-313766353664/Group_48.svg"
+                                alt="">
+                        </div>
+                        <h2 data-lang="feedback-video_name2"></h2>
+                        <span data-lang="feedback-video_span2"></span>
+                    </li>
+
+                    <li class="card">
+                        <div class="card_img card_img-three photo">
+                            <img class="play"
+                                src="https://static.tildacdn.net/tild6630-3964-4261-b230-313766353664/Group_48.svg"
+                                alt="">
+                        </div>
+                        <h2 data-lang="feedback-video_name3"></h2>
+                        <span data-lang="feedback-video_span3"></span>
+                    </li>
+
+                    <li class="card">
+                        <div class="card_img card_img-four photo">
+                            <img class="play"
+                                src="https://static.tildacdn.net/tild6630-3964-4261-b230-313766353664/Group_48.svg"
+                                alt="">
+                        </div>
+                        <h2 data-lang="feedback-video_name4"></h2>
+                        <span data-lang="feedback-video_span4"></span>
+                    </li>
+
+                </ul>
+
+            </div>
+        </section>
+
+        <!-- Попапы -->
+        <div id="popup1" class="popup">
+            <div class="popup-content">
+                <!-- Здесь можно добавить содержимое первого попапа -->
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/vgxsXWJs5jI?si=gJiJJog6Ur2G0OQy"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+            <button onclick="closePopup('popup1')">X</button>
+        </div>
+
+        <div id="popup2" class="popup">
+            <div class="popup-content">
+                <!-- Здесь можно добавить содержимое второго попапа -->
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/9UJ3xImFXFA?si=T7r9bUYAiBGmcacs"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+            <button onclick="closePopup('popup2')">X</button>
+        </div>
+
+        <div id="popup3" class="popup">
+            <div class="popup-content">
+                <!-- Здесь можно добавить содержимое третьего попапа -->
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/AjNSRIreL_0?si=uIw3MuXR2cpkgtvU"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+            <button onclick="closePopup('popup3')">X</button>
+        </div>
+
+        <div id="popup4" class="popup">
+            <div class="popup-content">
+                <!-- Здесь можно добавить содержимое третьего попапа -->
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/yMSQhr7sXas?si=2TGpRVpcyGs9A92j"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+            <button onclick="closePopup('popup4')">X</button>
+        </div>
+        <!-- </Отзывы(Видео)> -->
+
+        <!-- <Сертификат> -->
+        <section class="certificate">
+
+            <div class="yellow-circle">
+                <div class="circle"></div>
+                <span class="circle-title" data-lang="certificate"></span>
+            </div>
+
+            <h2><span data-lang="certificate-h2_span1"></span><span data-lang="certificate-h2_span2"></span></h2>
+
+            <p data-lang="certificate-p"><b data-lang="certificate-b1"></b>
+                <b data-lang="certificate-b2"></b>
+            </p>
+
+
+            <div class="certificate_content">
+                <div class="certificate_button">
+                    <p data-lang="certificate-button_p"></p>
+                    <button class="option-btn" onclick="openPopup('popup')">
+                        <span data-lang="certificate-button"></span>
+                        <img class="arrow" width="32" height="32"
+                            src="https://img.icons8.com/windows/32/000000/down-left-arrow.png" alt="down-left-arrow" />
+                    </button>
+                </div>
+                <div class="certificate_diplom">
+                    <img src="./img/New_Certificate_Cent.jpg" alt="">
+                    <img src="./img/New_Certificate_Cent (1).jpg" alt="">
+                    <img src="./img/New_Certificate_Cent (2).jpg" alt="">
+                </div>
+            </div>
+
+        </section>
+        <!-- </Сертификат> -->
+
+        <!-- <Финансы> -->
+        <section class="finance">
+
+            <div class="yellow-circle">
+                <div class="circle"></div>
+                <span class="circle-title" data-lang="about-finance"></span>
+            </div>
+
+            <h2 data-lang="about-finance_h2"></h2>
+
+            <div class="finance_content">
+
+                <div class="left_finance">
+
+                    <p>
+                        <span data-lang="left-finance_p-span1">
+
+                            <span data-lang="left-finance_p-span2"></span>
+                        </span>
+                        <span data-lang="left-finance_p-span3">
+
+                        </span>
+                    </p>
+                    <hr>
+                    <p data-lang="left-finance_p">
+
+                    </p>
+
+                    <button class="option-btn" id="redirectButton">
+                        <span data-lang="left-finance_btn">
+
+                        </span>
+                        <img class="arrow" width="32" height="32"
+                            src="https://img.icons8.com/windows/32/000000/down-left-arrow.png" alt="down-left-arrow" />
+                    </button>
+
+                </div>
+
+
+                <div class="right_finance">
+
+                    <div class="second-content_text">
+                        <div class="b"><span>01</span></div>
+                        <p class="second-content-p" data-lang="right-finance_p1">
+
+                        </p>
+                    </div>
+
+                    <div class="second-content_text">
+                        <div class="b"><span>02</span></div>
+                        <p class="second-content-p" data-lang="right-finance_p2">
+
+                        </p>
+                    </div>
+
+                    <div class="second-content_text">
+                        <div class="b"><span>03</span></div>
+                        <p class="second-content-p" data-lang="right-finance_p3">
+
+                        </p>
+                    </div>
+
+                    <div class="second-content_text">
+                        <div class="b"><span>04</span></div>
+                        <p class="second-content-p" data-lang="right-finance_p4">
+
+                        </p>
+                    </div>
+
+                    <div class="second-content_text">
+                        <div class="b"><span>05</span></div>
+                        <p class="second-content-p" data-lang="right-finance_p5">
+
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+
+        </section>
+        <!-- </Финансы> -->
+
+        <!-- <Последняя форма> -->
+        <section id="funding" class="last_form">
+            <div class="yellow-circle">
+                <div class="circle"></div>
+                <span class="circle-title" data-lang="last-form"></span>
+            </div>
+
+            <div class="last_form-content">
+                <div class="last_form-content__left">
+                    <h2 data-lang="last-form_h2"></h2>
+                    <p data-lang="last-form_p"></p>
+                </div>
+
+                <div class="last_form-content__right">
+                    <form>
+
+                        <div class="name-group">
+                            <div class="form-group">
+                                <input type="text" id="first_name" class="first_name" name="first_name"
+                                    placeholder="Имя (на английском)*">
+                            </div>
+
+                            <div class="form-group">
+                                <input type="text" id="last_name" class="last_name" name="last_name"
+                                    placeholder="Фамилия (на английском)*" data-lang="second-name">
+                            </div>
+                        </div>
+
+
+                        <div class="input-group">
+                            <div class="form-group">
+                                <select id="country2" name="country">
+                                    <option value="+49" selected>Germany</option>
+                                </select>
+                            </div>
+
+                            <div class="form-group">
+                                <input type="text" id="phone_number2" name="phone_number" placeholder="Номер телефона"
+                                    value="+49">
+                            </div>
+                        </div>
+
+                        <div class="email-group">
+                            <input type="email" id="email" name="email" placeholder="Email*" data-lang="email">
+                        </div>
+
+                        <select class="choose" name="выбор" id="выбор">
+                            <option value="" disabled selected>Select Programm</option>
+                            <option value="variant1">Front-End Development</option>
+                            <option value="variant2">Back-End Development</option>
+                            <option value="variant3">QA Testing</option>
+                            <option value="variant4">Digital Marketer</option>
+                        </select>
+
+
+                        <label class="checkbox-container">
+                            <input type="checkbox">
+                            I agree with the<a href="#" style="margin-left: 10px;">Privacy Policy*</a>
+                        </label>
+                        <button class="send" data-lang="send-form">Send</button>
+                    </form>
+
+                </div>
+
+            </div>
+        </section>
+        <!-- </Последняя форма> -->
+
+        <!-- <Контакты> -->
+        <section id="contact" class="footer">
+            <hr>
+            <div class="footer_content">
+                <div class="footer_content-top">
+                    <div class="footer_top-left">
+                        <div class="footer_logo">
+                            <img src="img/icon/Group_2649_1.svg" alt="">
+                            <p data-lang="footer-p"></p>
+                        </div>
+                    </div>
+                    <div class="footer-icon">
+                        <div class="footer_top-center">
+                            <h3 data-lang="footer-h3_first"></h3>
+                            <a href="https://www.facebook.com/telranDE/"><img src="./img/icon/fb-new.svg" alt=""></a>
+                            <a href="https://www.instagram.com/startainstitute/"><img src="./img/icon/inst-new.svg"
+                                    alt=""></a>
+                            <a href="https://www.linkedin.com/company/tel-ran-de/about/"><img src="./img/icon/in-new.svg"
+                                    alt=""></a>
+                            <a href="https://t.me/Starta_Institute_By_TelRan"><img src="./img/icon/tg-new.svg"
+                                    alt=""></a>
+                            <a href="https://youtube.com/@tel-ran.europe"><img src="./img/icon/yt-new.svg" alt=""></a>
+                            <a href="https://www.tiktok.com/@startainstitute.com"><img src="./img/icon/tiktok-new.svg"
+                                    alt=""></a>
+                        </div>
+                        <div class="footer_top-right">
+                            <h3 data-lang="footer-h3_second"></h3>
+                            <a href="mailto:start@tel-ran.de"><img src="./img/icon/mail-new.svg" alt=""></a>
+                            <a href="tel:+491717788664"><img src="./img/icon/tel-new.svg" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer_content-bottom">
+                    <div class="footer_content-bottom__left">
+                        <p>
+                            <span data-lang="footer-content_p1">
+
+                            </span>
+                            <br>
+                            <br>
+                            <br>
+                            <span data-lang="footer-content_p2">
+
+                            </span>
+                        </p>
+                    </div>
+                    <div class="footer_right_second">
+                        <ul class="ul-first">
+                            <li><a href="#" data-lang="our-mission"></a>
+                            </li>
+                            <li><a href="#">IMPRESSUM</a></li>
+                            <li><a href="#" data-lang="policy"></a>
+                            </li>
+                        </ul>
+                        <ul class="ul-second">
+                            <li data-lang="our-contact"></li>
+                            <li data-lang="our-address">НАШ АДРЕС:</li>
+                        </ul>
+                        <ul class="ul-thirt">
+                            <li>
+                                <a href="tel:+491717788661">491717788661</a>
+                                <a href="mailto:start@tel-ran.de">it@startainstitute.com</a>
+                            </li>
+                            <li>
+                                <a href="https://g.page/telranDE?share">220 E 23RD St, Suite 400, New York City</a><br>
+                                <a href="https://maps.app.goo.gl/k7ZoUZgPuTXEMvH69">Tel-Ran.de GmbH, Linkstraße 2, 8 OG,
+                                    10785, Berlin, Deutschland</a>
+                            </li>
+                            <li><span>© 2023</span></li>
+                        </ul>
+                    </div>
+                </div>
+
+
+            </div>
+        </section>
+        <!-- </Контакты> -->
+    </main>
+    <!-- </Вся страница> -->
+
+    <!-- <Форма> -->
+    <div class="popup__bg">
+        <form class="popup">
+            <div class="popup-header">
+                <div class="yellow-circle">
+                    <div class="circle"></div>
+                    <span>Оставьте заявку</span>
+                </div>
+                <div class="close-popup"><img src="./img/x.svg" alt=""></div>
+            </div>
+            <h2 class="form-title">Оставьте заявку, и наши специалисты подробнее расскажут о программах курсов</h2>
+            <div class="form">
+                <input type="text" placeholder="Имя (на английском)*">
+                <input type="text" placeholder="Фамилия (на английском)">
+            </div>
+            <button type="submit">Отправить</button>
+        </form>
+    </div>
+    <!-- </Форма> -->
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script/translate/translate_lang.js"></script>
+    <script src="script/main.js"></script>
+</body>
+<!-- https://startainstitute.com/it/ru/main - page copy -->
+</html>

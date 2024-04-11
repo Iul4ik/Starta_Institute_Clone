@@ -1,0 +1,177 @@
+.option {
+    width: 100%;
+    cursor: pointer;
+    background-color: #f2f2f2;
+    color: #111;
+    height: auto;
+    position: absolute;
+
+    & img {
+        padding-top: 5%;
+    }
+}
+
+.img-option {
+    width: 100%;
+}
+
+.option-top {
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 10%;
+
+    & .option-border {
+        display: flex;
+        justify-content: center;
+        border: 2px solid black;
+        border-left: none;
+        border-top: none;
+        background-color: transparent;
+    }
+
+    & .option-variant {
+        color: #111;
+        display: flex;
+        font-size: 18px;
+        white-space: nowrap;
+        padding-right: 10px;
+    }
+
+    & .arrow-move {
+        border: 2px solid black;
+        border-left: none;
+        border-top: none;
+        border-right: none;
+        width: 60%;
+        display: flex;
+        align-items: center;
+        justify-content: end;
+        background-color: transparent;
+    }
+}
+
+.option1,
+.option2,
+.option3,
+.option4 {
+    cursor: pointer;
+    position: relative;
+    background-image: url(https://static.tildacdn.net/tild3562-6235-4431-b137-303965373237/Ellipse_136.png);
+    background-repeat: no-repeat;
+}
+
+.option1 {
+    background-size: 115%;
+    background-position: -100% -10%;
+
+    & .hr-dashed-bg {
+        margin-top: 40px;
+    }
+}
+
+.option2 {
+    background-size: 145%;
+    background-position: 100% 85%;
+
+    & .hr-dashed-bg {
+        margin-top: 70px;
+    }
+}
+
+.option3 {
+    background-size: 145%;
+    background-position: 100% 55%;
+
+    & .hr-dashed-bg {
+        margin-top: 105px;
+    }
+}
+
+.option4 {
+    background-size: 145%;
+    background-position: 100% 0%;
+
+    & .hr-dashed-bg {
+        margin-top: 10px;
+    }
+}
+
+.option-h2 {
+    padding-left: 5%;
+    padding-top: 10%;
+}
+
+.border-option {
+    padding-top: 10%;
+    display: block;
+    padding-left: 5%;
+    padding-right: 5%;
+    height: auto;
+}
+
+.border {
+    border: 2px solid black;
+    padding: 15px 0;
+    width: auto;
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+
+.border-option_active {
+    background-color: black;
+    color: #f2f2f2;
+}
+
+.option-grid {
+    margin-top: 25px;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(3, 2fr);
+}
+
+.hr-dashed-bg {
+    margin: 20px 0;
+    padding: 0;
+    height: 0;
+    border: none;
+    border-top: 2px dashed #ddd;
+    background: #999;
+}
+
+.option-p {
+    font-size: 18px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.option-btn {
+    text-transform: uppercase;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 25px;
+    padding: 15px 10px;
+    background-color: gold;
+    border: none;
+    width: 80%;
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+
+    &:hover {
+        background-color: #f2f2f2;
+        border: 1px solid black;
+    }
+}
+
+@media only screen and (max-width: 1440px) {
+    .option1 {
+        & .hr-dashed-bg {
+            margin-top: 60px;
+        }
+    }
+}

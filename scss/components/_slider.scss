@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+.slider {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 10%;
+    color: #f2f2f2;
+
+    .slider-title {
+        font-size: 80px;
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+
+    .wrapper {
+        position: relative;
+    }
+
+    .slider-control {
+        display: flex;
+        align-items: center;
+        justify-content: left;
+        text-align: left;
+
+        hr {
+            width: 100%;
+            margin-right: 10%;
+        }
+
+        .left-arrow {
+            cursor: pointer;
+            width: 70px;
+            transform: rotate(180deg);
+            margin-right: 20px;
+        }
+
+        .right-arrow {
+            cursor: pointer;
+            width: 70px;
+            margin-left: 20px;
+        }
+    }
+}
+
+.big-circle_active {
+    background-color: gold;
+    width: 50px;
+    height: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 50%;
+    border-radius: 25px;
+}
+
+.big-circle {
+    background-color: #f2f2f2;
+    width: 50px;
+    height: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 25px;
+}
+
+.wrapper .carousel {
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: calc((100% / 4) - 12px);
+    gap: 30px;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    border-radius: 8px;
+    scroll-behavior: smooth;
+    scrollbar-width: none;
+}
+
+.carousel::-webkit-scrollbar {
+    display: none;
+}
+
+.carousel.no-transition {
+    scroll-behavior: auto;
+}
+
+.carousel.dragging {
+    scroll-snap-type: none;
+    scroll-behavior: auto;
+}
+
+.carousel.dragging .card {
+    cursor: grab;
+    user-select: none;
+}
+
+.carousel .card {
+    scroll-snap-align: start;
+    list-style: none;
+    cursor: grab;
+    padding-bottom: 15px;
+    flex-direction: column;
+    border-radius: 8px;
+}
+
+.card .img img {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.carousel .card h2 {
+    font-weight: 500;
+    font-size: 40px;
+    margin: 30px 0 15px;
+}
+
+.carousel .card span {
+    font-size: 1.31rem;
+}
+
+.btn {
+    white-space: nowrap;
+    margin-left: 10%;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 5%;
+    margin-bottom: 10%;
+
+    & span {
+        margin-bottom: 20px;
+        font-size: 22px;
+        color: #f2f2f2;
+    }
+
+    button {
+        cursor: pointer;
+        background-color: gold;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 60px;
+        font-size: 25px;
+        border: none;
+
+        &:hover {
+            border: 2px solid #f2f2f2;
+            background-color: #f2f2f2;
+        }
+    }
+}
+
+@media screen and (max-width: 1025px) {
+    .btn {
+        width: 40%;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .slider {
+        width: 80%;
+        margin-right: 10%;
+        margin-left: 10%;
+    }
+
+    .wrapper .carousel {
+        grid-auto-columns: calc((100% / 3) - 9px);
+    }
+
+    .btn {
+        width: 55%;
+        margin-right: 16%;
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+    .slider {
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    .wrapper .carousel {
+        grid-auto-columns: 100%;
+    }
+
+    .btn {
+        width: 85%;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .slider {
+        & .slider-title {
+            font-size: 45px;
+        }
+    }
+
+    .slider2 {
+        & .slider-title {
+            font-size: 45px;
+        }
+    }
+
+    .btn {
+        width: 70%;
+
+        & span {
+            font-size: 14px;
+        }
+
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .slider {
+        & .slider-title {
+            font-size: 45px;
+        }
+    }
+
+    .slider2 {
+        & .slider-title {
+            font-size: 25px;
+        }
+    }
+
+    .btn {
+        width: 70%;
+
+        & span {
+            font-size: 12px;
+        }
+
+    }
+}

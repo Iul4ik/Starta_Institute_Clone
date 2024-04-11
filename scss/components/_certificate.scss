@@ -1,0 +1,177 @@
+.certificate {
+    padding-top: 150px;
+    color: #111;
+    background-color: #f2f2f2;
+    padding-left: 10%;
+    padding-right: 10%;
+
+    & .yellow-circle {
+        color: #111;
+    }
+
+    & h2 {
+        margin-top: 50px;
+        font-size: 75px;
+
+        & span {
+            border-bottom: 4px solid gold;
+        }
+    }
+
+    & p {
+        font-size: 25px;
+        margin-top: 50px;
+
+        & b {
+            font-weight: 600;
+        }
+    }
+
+    & .certificate_content {
+        display: flex;
+        align-items: center;
+
+        & .certificate_button {
+            width: 30%;
+            text-align: center;
+
+            & p {
+                font-size: 15px;
+                margin-bottom: -20px;
+            }
+        }
+
+
+        & .certificate_diplom {
+            & img {
+                width: 250px;
+                margin-right: 20px;
+
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 1440px) {
+    .certificate {
+        padding-top: 150px;
+        color: #111;
+        background-color: #f2f2f2;
+        padding-left: 10%;
+        padding-right: 10%;
+
+        & .yellow-circle {
+            color: #111;
+        }
+
+        & h2 {
+            margin-top: 50px;
+            font-size: 75px;
+
+            & span {
+                border-bottom: 4px solid gold;
+            }
+        }
+
+        & p {
+            font-size: 25px;
+            margin-top: 50px;
+
+            & b {
+                font-weight: 600;
+            }
+        }
+
+        & .certificate_content {
+            display: block;
+            align-items: center;
+
+            & .certificate_button {
+                width: 30%;
+                text-align: center;
+
+                & p {
+                    font-size: 15px;
+                    margin-bottom: -20px;
+                }
+            }
+
+
+            & .certificate_diplom {
+                margin-top: 5%;
+
+                & img {
+                    width: 250px;
+                    margin-right: 20px;
+
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .certificate {
+
+        & .certificate_content {
+            display: block;
+            align-items: center;
+
+            & .certificate_button {
+                width: 70%;
+                text-align: center;
+
+                & p {
+                    font-size: 15px;
+                    margin-bottom: -20px;
+                }
+            }
+
+
+            & .certificate_diplom {
+                margin-top: 5%;
+
+                & img {
+                    width: 250px;
+                    margin-top: 20px;
+                    margin-right: 20px;
+
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .certificate {
+        & h2 {
+            font-size: 45px;
+        }
+        & .certificate_content {
+
+            & .certificate_button {
+                width: 100%;
+
+                & p {
+                    font-size: 14px;
+                }
+            }
+
+
+            & .certificate_diplom {
+                margin-top: 5%;
+                text-align: center;
+
+                & img {
+                    width: 250px;
+                    margin-top: 20px;
+                    margin-right: 20px;
+
+                }
+            }
+        }
+    }
+}
+
+
+

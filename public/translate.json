@@ -1,0 +1,718 @@
+{
+    "about": {
+        "ru": "о нас",
+        "en": "about us"
+    },
+    "programmes": {
+        "ru": "программы",
+        "en": "programmes"
+    },
+    "professors": {
+        "ru": "преподаватели",
+        "en": "professors"
+    },
+    "feedback": {
+        "ru": "отзывы",
+        "en": "feedback"
+    },
+    "funding": {
+        "ru": "финансирование",
+        "en": "funding assistance"
+    },
+    "referal": {
+        "ru": "реферальная система",
+        "en": "referal sistem"
+    },
+    "contacts": {
+        "ru": "контакты",
+        "en": "contacts"
+    },
+    "menu": {
+        "ru": "Меню",
+        "en": "Menu"
+    },
+    "about-burger": {
+        "ru": "о нас",
+        "en": "about us"
+    },
+    "programmes-burger": {
+        "ru": "программы",
+        "en": "programmes"
+    },
+    "professors-burger": {
+        "ru": "преподаватели",
+        "en": "professors"
+    },
+    "feedback-burger": {
+        "ru": "отзывы",
+        "en": "feedback"
+    },
+    "funding-burger": {
+        "ru": "финансирование",
+        "en": "funding assistance"
+    },
+    "referal-burger": {
+        "ru": "реферальная система",
+        "en": "referal sistem"
+    },
+    "contacts-burger": {
+        "ru": "контакты",
+        "en": "contacts"
+    },
+    "apply": {
+        "ru": "записаться",
+        "en": "apply"
+    },
+    "h1Span1Title": {
+        "ru": "STARTA INSTITUTE",
+        "en": "STARTA INSTITUTE"
+    },
+    "h1Span2Title": {
+        "ru": "МЕЖДУНАРОДНАЯ ",
+        "en": "INTERNATIONAL SCHOOL"
+    },
+    "h1Span3Title": {
+        "ru": "ШКОЛА IT-ПРОФЕССИЙ",
+        "en": "OF IT PROFESSIONS"
+    },
+    "text-content_bottom1": {
+        "ru": "ОБУЧАЕМ ОНЛАЙН С НУЛЯ, ПОМОГАЕМ",
+        "en": "WE TEACH ONLINE FROM SCRATCH AND HELP  "
+    },
+    "text-content_bottom2": {
+        "ru": "НАЙТИ РАБОТУ СО СРЕДНЕЙ ЗАРПЛАТОЙ",
+        "en": "STUDENTS FIND A JOB WITH AN AVERAGE ANNUAL"
+    },
+    "text-content_bottom3": {
+        "ru": "€75,000 ($80,000/£65,000) В ГОД",
+        "en": "SALARY OF €75,000 ($80,000/£65,000)"
+    },
+    "info1": {
+        "ru": "*Tel-Ran.de стал частью международного",
+        "en": "*Tel-Ran.de has become part of the"
+    },
+    "info2": {
+        "ru": "института стартап-профессий Starta Institute,",
+        "en": "Starta Institute, an international startup"
+    },
+    "info3": {
+        "ru": "головной офис которого находится в Нью-Йорке",
+        "en": "institute headquartered in New York"
+    },
+    "explicite": {
+        "ru": "ПОДРОБНЕЕ НА БЕСПЛАТНОЙ КОНСУЛЬТАЦИИ",
+        "en": "GET FREE ADVICE AND LEARN MORE"
+    },
+    "register": {
+        "ru": "оставить заявку",
+        "en": "leave an application"
+    },
+    "second-content_1": {
+        "ru": "немецкий сертификат гос.образца, который ценят по всему миру",
+        "en": "German state certificate, valued by employers all over the world"
+    },
+    "second-content_2": {
+        "ru": "работа в команде на практических задачах",
+        "en": "Teamwork and practical tasks"
+    },
+    "second-content_3": {
+        "ru": "гарантированная помощь в трудоустройстве",
+        "en": "Guaranteed employment assistance"
+    },
+    "second-content_4": {
+        "ru": "индивидуальная обратная связь от преподавателей",
+        "en": "individual feedback from your professors"
+    },
+    "about-span": {
+        "ru": "О нас",
+        "en": "About us"
+    },
+    "about-h2": {
+        "ru": "Немного про нас",
+        "en": "About us"
+    },
+    "about-p_1-1": {
+        "ru": "_Наши выпускники получают",
+        "en": "Our graduates receive"
+    },
+    "about-span_1": {
+        "ru": "европейские сертификаты гос. образца,",
+        "en": "European certificates,"
+    },
+    "about-p_1-2": {
+        "ru": "которые ценят работодатели по всему миру. Этот документ выделит вас среди других кандидатов, прошедших «ускоренные онлайн-курсы по IT».",
+        "en": "which are highly valued by employers all over the world. This diploma will set you apart from other candidates who have completed «accelerated online courses in IT»."
+    },
+    "about-span_2": {
+        "ru": "В школе нет «записанных лекций» —",
+        "en": "_There are no «recorded lectures» at school —"
+    },
+    "about-p_2": {
+        "ru": "только уроки в прямом эфире с возможностью задавать вопросы и практика на реальных кейсах. За 960 часов учёбы вы получите фундаментальное прикладное образование и лучшие современные практики.",
+        "en": "only live online lessons and teamwork on real projects. For 960 hours of study, you will receive a fundamental applied education with today's best practices."
+    },
+    "about-p_3-1": {
+        "ru": "_Преподаватели Starta Institute — ",
+        "en": "Starta Institute teachers are — "
+    },
+    "about-span_3": {
+        "ru": "практикующие специалисты и звёзды IT-индустрии. ",
+        "en": "the stars of the IT industry."
+    },
+    "about-p_3-2": {
+        "ru": "Они преподают по авторским методикам и дают оперативную обратную связь.",
+        "en": "They teach according to the school's proven methods and give prompt feedback."
+    },
+    "about-circle-1": {
+        "ru": "Мы сопровождаем вас на всех этапах новой карьеры: от обучения до стажировки итрудоустройства.",
+        "en": "We accompany you at all stages of your new career: from training to internship to employment."
+    },
+    "about-circle-2": {
+        "ru": "Выпускники работают в международных IT-компаниях и в среднем зарабатывают €75,000($80,000/£65,000) в год",
+        "en": "Graduates work for international IT companies and earn an average of €75,000 ($80,000/£65,000) per year."
+    },
+    "history": {
+        "ru": "История",
+        "en": "A story"
+    },
+    "h2-first_slider": {
+        "ru": "Ваш путь начинается здесь...",
+        "en": "Your new path starts here ..."
+    },
+    "point-first": {
+        "ru": "Точка А",
+        "en": "Point A"
+    },
+    "point-first_description": {
+        "ru": "Вы в начале своего пути. Поняли, что в текущей работе нет перспектив для роста, и приняли решение уйти в IT.",
+        "en": "The beginning of your journey. You've realized that there were no nbsp;prospects for growth in your current work and decided tomake a career shift to IT."
+    },
+    "point-second": {
+        "ru": "Через 1 месяц",
+        "en": "After 1 month"
+    },
+    "point-second_description": {
+        "ru": "Вы проходите обучение в Starta Institute и постепенно погружаетесь в новую профессию под чутким руководством преподавателей и кураторов.",
+        "en": "As a Starta Institute student, you gradually immerse yourself in a new profession under the guidance of our teachers and curators."
+    },
+    "point-thirt": {
+        "ru": "Через 9 месяцев",
+        "en": "After 9 months"
+    },
+    "point-thirt_description": {
+        "ru": "Вы только что закончили обучение и получили диплом. Поздравляем, теперь вы сертифицированный специалист! Ваши навыки очень востребованы, остаётся лишь выбрать компанию по душе.",
+        "en": "You have just graduated and received a diploma. Congratulations! You are now a certified specialist.Your skills are in high demand in labor market — you only need to choose the right company for you."
+    },
+    "point-fourth": {
+        "ru": "Через 1 год",
+        "en": "After 1 year"
+    },
+    "point-fourth_description": {
+        "ru": "Вы работаете в международной IT-компании. У вас крутая команда, которая усиливает вас, а вы — её.",
+        "en": "You got a job in an international company. You've found a cool team  you,and you strengthen it."
+    },
+    "point-firth": {
+        "ru": "Через 3 года",
+        "en": "After 3 years"
+    },
+    "point-firth_description": {
+        "ru": "Вы выросли до уровня senior-специалиста, зарабатываете около €100,000 ($110,000/£87,000) в год и управляете собственной командой.Теперь вы сами обучаете других, и к вам обращаются за советом.",
+        "en": "You have grown to become a senior specialist, earning about €100,000 ($110,000/£87,000) a year and managing your own team.Now, you're teaching others yourself — they ask you for career advice."
+    },
+    "point-six": {
+        "ru": "Точка Б",
+        "en": "Point B"
+    },
+    "point-six_description": {
+        "ru": "Спустя 4 года вы удалённо управляете целой IT-компанией и зарабатываете около €120,000 ($130,000/£104,000) в год. Ваша жизнь действительно изменилась, и вы можете этим гордиться!",
+        "en": "After 4 years, you manage an entire IT company remotely and earn about €120,000 ($130,000/£104,000) a year. Your life has really changed. You should be proud!And that's not all. The next step may even be to open your own business, where your income can be limitless. И&nbsp;это ещё не всё. Следующим шагом может быть открытие собственного бизнеса, где ваш доход будет не ограничен!"
+    },
+    "text-button_after-slider": {
+        "ru": "ПОДРОБНЕЕ НА БЕСПЛАТНОЙ КОНСУЛЬТАЦИИ",
+        "en": "GET FREE ADVICE AND LEARN MORE"
+    },
+    "button-after_slider": {
+        "ru": "ОСТАВИТЬ ЗАЯВКУ",
+        "en": "LEAVE AN APPLICATION"
+    },
+    "about-slider_two": {
+        "ru": "Какие курсы у нас есть",
+        "en": "Our courses"
+    },
+    "about-slider_two-h2": {
+        "ru": "Специальности и зарплаты",
+        "en": "Jobs and salaries"
+    },
+    "about-slider_two-p": {
+        "ru": "Сейчас в Европе, Англии и США открыто более 50,000 вакансий для front-end разработчиков, более 80,000 для back-end разработчиков и более 40,000 для QA-тестировщиков. Мы поможем  вам освоить эти профессии с нуля.",
+        "en": "There are currently more than 50,000 open positions for front-end developers, more than 80,000 for back-end developers and more than 40,000 for QA testers in Europe, England and the USA. We can help you master these professions from scratch."
+    },
+    "option-h2_first": {
+        "ru": "Front-end разработчик",
+        "en": "Front-end developer"
+    },
+    "border-option_active-first": {
+        "ru": "спр. зп:€75,000 ($80,000/£65,000)в год",
+        "en": "Average salary:€75,000 ($80,000/£65,000) per year"
+    },
+    "border-vacantion_first": {
+        "ru": ">50 000 открытых вакансий",
+        "en": ">50 000 jobs"
+    },
+    "border-duration_first": {
+        "ru": "9 месяцев обучения",
+        "en": "Training period: 9 months"
+    },
+    "border-long_time-first": {
+        "ru": " 1038 академ. часов",
+        "en": "1038 academic hours"
+    },
+    "option-p_first-first": {
+        "ru": " Научитесь создавать внешнюю часть веб-сайтов и приложений, программировать на нескольких языках",
+        "en": "Learn how to create the front end of application websites and apps, and to code in different programming languages"
+    },
+    "option-p_first-second": {
+        "ru": "Вам предстойт разрабатывать все, что видит пользователь перед собой: макет сайта,меню,кнопки,изображения",
+        "en": "You will develop everything the user sees in front of them:a website layout,a menu,buttons,pictures."
+    },
+    "option-h2_second": {
+        "ru": "Back-end разработчик",
+        "en": "Back-end developer"
+    },
+    "border-option_active-second": {
+        "ru": "спр. зп:€75,000 ($80,000/£65,000)в год",
+        "en": "Average salary:€75,000 ($80,000/£65,000) per year"
+    },
+    "border-vacantion_second": {
+        "ru": ">80 000 открытых вакансий",
+        "en": ">80 000 jobs"
+    },
+    "border-duration_second": {
+        "ru": "9 месяцев обучения",
+        "en": "Training period: 9 months"
+    },
+    "border-long_time-second": {
+        "ru": "1038 академ. часов",
+        "en": "1038 academic hours"
+    },
+    "option-p_second-first": {
+        "ru": "Научитесь создавать всё, что находиться внутри веб-сайтов и приложений, программировать на языке Java",
+        "en": "Learn how to create everything hidden inside websites and apps,as well as learning to code Java"
+    },
+    "option-p_second-second": {
+        "ru": " Вам предстойт разрабатывать фундамент сайта: какие функции выполняет сайт, как работают алгоритмы внутри сайта, как устроена база данных внутри сайта.",
+        "en": "You will develop the foundation of a website: the function it performs, the algorithms working inside of it, the constructor of the databases inside the website"
+    },
+    "option-h2_thirt": {
+        "ru": "QA- тестировщик",
+        "en": "QA tester"
+    },
+    "border-option_active-thirt": {
+        "ru": "спр. зп:€55,000 ($60,000/£48,000)в год",
+        "en": "Average salary:€55,000 ($60,000/£48,000) per year"
+    },
+    "border-vacantion_thirt": {
+        "ru": ">40 000 открытых вакансий",
+        "en": ">40 000 jobs"
+    },
+    "border-duration_thirt": {
+        "ru": "9 месяцев обучения",
+        "en": "Training period: 9 months"
+    },
+    "border-long_time-thirt": {
+        "ru": "1038 академ. часов",
+        "en": "1038 academic hours"
+    },
+    "option-p_thirt-first": {
+        "ru": "Научитесь искать уязвимые места внутри веб-сайтов и приложений, программировать на нескольких языках",
+        "en": "Learn how to find vulnerabilities in websites and apps,and learn how to code in differnet programming languages."
+    },
+    "option-p_thirt-second": {
+        "ru": " Вам предстойт проверять и тестировать приложения и веб-сайты - искать ошибки и улучшать опыт пользователей",
+        "en": "You will check and test apps and websites. You will look for errors and improve user's experience"
+    },
+    "option-h2_fourth": {
+        "ru": "Digital- маркетолог",
+        "en": "Digital marketer"
+    },
+    "border-option_active-fourth": {
+        "ru": "спр. зп:€70,000 ($75,000/£61,000)в год",
+        "en": "Average salary:€70,000 ($75,000/£61,000) per year"
+    },
+    "border-vacantion_fourth": {
+        "ru": ">63 000 открытых вакансий",
+        "en": ">63 000 jobs"
+    },
+    "border-duration_fourth": {
+        "ru": "7 месяцев обучения",
+        "en": "Training period: 7 months"
+    },
+    "border-long_time-fourth": {
+        "ru": "620 академ. часов",
+        "en": "620 academic hours"
+    },
+    "option-p_fourth-first": {
+        "ru": " Научитесь продвигать продукты и бренды в digital, используя различные рекламные инструменты.",
+        "en": "Learn how to promote products and brands in digital using various advertising tools"
+    },
+    "option-p_fourth-second": {
+        "ru": "Вам предстойт разрабатывать стратегии продвижения, самостоятельно настраивать рекламу и оценивать её результативность.",
+        "en": "You will develop marketing strategies,set up your own ads, and evaluate their efficiency"
+    },
+    "learn-more_one": {
+        "ru": " Подробнее",
+        "en": "Learn more"
+    },
+    "learn-more_two": {
+        "ru": " Подробнее",
+        "en": "Learn more"
+    },
+    "learn-more_three": {
+        "ru": " Подробнее",
+        "en": "Learn more"
+    },
+    "learn-more_four": {
+        "ru": " Подробнее",
+        "en": "Learn more"
+    },
+    "about-learn": {
+        "ru": "Как проходит обучение",
+        "en": "How we educate"
+    },
+    "about-learn_h2": {
+        "ru": "Как проходит обучение",
+        "en": "How we educate"
+    },
+    "about-learn_p1": {
+        "ru": "живые онлайн-лекции топовых преподавателей, возможность задавать вопросы и получать обратную связь",
+        "en": "Online live lectures of the most prestigous professors, giving you every opportunity to ask questions and receive feedback on any topic that confuses you"
+    },
+    "about-learn_p2": {
+        "ru": "углубленные знания по выбранной специальности, 960 часов лучших практик",
+        "en": "In-depth immersion in the profession you choose — 960 hours of the best up-to-date practices"
+    },
+    "about-learn_p3": {
+        "ru": "готовое портфолио, помощь в подготовке резюме и тренировочные собеседования",
+        "en": "A ready-made portfolio, CV, and preparation for interviews in your desired profession"
+    },
+    "about-learn_p4": {
+        "ru": "знакомство с индустрией, ее основными профессиями и возможность выбрать свою",
+        "en": "Introduction to the industry and its core professions, with an opportunity to choose your own"
+    },
+    "about-learn_p5": {
+        "ru": "возможность зарабатывать баллы за помощь другим и тратить их на привлекательные бонусы в IT shop",
+        "en": "An opportunity to earn points for helping others and spend them on attractive bonuses in our IT Shop"
+    },
+    "about-learn_p6": {
+        "ru": "обучение на русском языке с возможностью подтянуть уровень английского",
+        "en": "Instruction in English with the opportunity to improve your level of English"
+    },
+    "about-learn_p7": {
+        "ru": "европейский сертификат государственного образца",
+        "en": "A European state certificate"
+    },
+    "who-teach": {
+        "ru": "У кого вы будете учиться",
+        "en": "Who you will learn from"
+    },
+    "who-teach_h2": {
+        "ru": "Учитесь у лучших IT-специалистов",
+        "en": "Learn from the best IT-specialists"
+    },
+    "slider-text": {
+        "ru": "Знакомьтесь с преподавателями",
+        "en": "Meet our professors"
+    },
+    "who-teach_h2-name1": {
+        "ru": "Сергей Л.",
+        "en": "Sergey L."
+    },
+    "who-teach_h2-name2": {
+        "ru": "Тигран М.",
+        "en": "Tigran M."
+    },
+    "who-teach_h2-name3": {
+        "ru": "Гегам Б.",
+        "en": "Gegham B."
+    },
+    "who-teach_h2-name4": {
+        "ru": "Нелли Е.",
+        "en": "Nelli E."
+    },
+    "who-teach_h2-name5": {
+        "ru": "Владимир К.",
+        "en": "Vladimir K."
+    },
+    "who-teach_h2-name6": {
+        "ru": "Андрей Л.",
+        "en": "Andrey L"
+    },
+    "who-teach_h2-name7": {
+        "ru": "Филип П.",
+        "en": "Philip P."
+    },
+    "who-teach_experience1": {
+        "ru": "Стаж 22 года Zalando SE - Engineering Lead Tel-Ran.de - CTO",
+        "en": "Experience: 22 years Engineering Lead at Zalando SE, CTO at Tel-Ran.de"
+    },
+    "who-teach_experience2": {
+        "ru": "Стаж 5 лет МФТИ, IThub, SberUniversity - преподаватель",
+        "en": "Experience: 5 years MIPT,IThub,SberUniversity - teacher"
+    },
+    "who-teach_experience3": {
+        "ru": "Стаж 12 лет Директор по продукту Технический директор Исполнительный директор",
+        "en": "Experience: 12 years Product Director Tehnical Director Executive Director"
+    },
+    "who-teach_experience4": {
+        "ru": "Стаж 5 лет PROG Center - Co-Founder and Managing Director SberUniversity - Frontend Development Instructor (JS, React), TIARCENTER - Project Manager",
+        "en": "Experience: 5 years PROG Center - Co-Founder and Managing Director,SberUniversity - Frontend Development Instructor(JS,React),TIARCENTER - Project Manager"
+    },
+    "who-teach_experience5": {
+        "ru": "Стаж 10 лет AQ 'Тинькофф Банк' - Group Lead QA",
+        "en": "Experience: 10 years Group Lead QA at Tinkoff Bank"
+    },
+    "who-teach_experience6": {
+        "ru": "Стаж 15 лет idealo - Cloud Engineer,Takeaway.com - ex Cloud Architect",
+        "en": "Experience: 15 years Cloud Engineer at idealo,ex Cloud Architect at Takeawai.com"
+    },
+    "who-teach_experience7": {
+        "ru": "Стаж 6 лет Senior Software Engineer - Epam system",
+        "en": "Experience: 6 years Senior Software Engineer at Epam Systems"
+    },
+    "about-feedback": {
+        "ru": "Текстовые отзывы студентов",
+        "en": "Our students’ reviews"
+    },
+    "about-feedback_h2": {
+        "ru": "Истории успеха",
+        "en": "Success Stories"
+    },
+    "feedback-p1": {
+        "ru": "«Большинство преподавателей школы являются экспертами в своей области, интересно подают материал, отвечают на сопутствующие вопросы в полном объеме»",
+        "en": "«Most of the school’s teachers are experts in their field, they present the material in an interesting way, and answer related questions in full»"
+    },
+    "feedback-p2": {
+        "ru": "«Мне понравился спокойный темп обучения. Дружелюбные преподаватели и очень мотивированные студенты, с которыми мы вместе решали задачи. Также очень круто что в любой момент можно задать вопрос и тебе с радостью на него отвечают»",
+        "en": "«I liked the relaxed pace of learning. Friendly teachers and very motivated students with whom we solved problems together. It’s also very cool that you can ask a question at any time and they’ll happily answer it for you.»"
+    },
+    "feedback-p3": {
+        "ru": "«У меня не было много времени — я совмещаю работу с учёбой, поэтому мне понравилось, что на курсе есть возможность смотреть уроки в формате сохраненных видео-записей. Я смог нагнать и пересмотреть пропущенный материал»",
+        "en": "«I didn’t have a lot of time - I combine work with study, so I liked that the course had the opportunity to watch lessons in the format of saved video recordings. I was able to catch up and review missed material»"
+    },
+    "feedback-p4": {
+        "ru": "«Преподаватели всё время шли мне навстречу. Я люблю задавать очень много вопросов — чтобы точно усвоить материал. Ко мне постоянно возвращались с обратной связью и помогали — я очень ценю это»",
+        "en": "«The teachers always met me halfway. I like to ask a lot of questions in order to accurately understand the material. They constantly came back to me with feedback and help - I really appreciate it»"
+    },
+    "feedback-p5": {
+        "ru": "«Мне понравилось как преподаватели подают материал — всё качественно и понятно. Кажется, что очень важный критерий в обучении — уметь чётко и ясно объяснять. С этим проблем не возникло»",
+        "en": "«I liked the way the teachers presented the material - everything was high quality and clear. It seems that a very important criterion in teaching is to be able to explain clearly and clearly. There were no problems with this»"
+    },
+    "feedback-h5_1": {
+        "ru": "Владимир Денисов",
+        "en": "Vladimir Denisov"
+    },
+    "feedback-h5_2": {
+        "ru": "Руслан Рагимов",
+        "en": "Ruslan Raghimov"
+    },
+    "feedback-h5_3": {
+        "ru": "Александр Сорокин",
+        "en": "Alexandr Sorokin"
+    },
+    "feedback-h5_4": {
+        "ru": "Алина Марченко",
+        "en": "Alina Marcenco"
+    },
+    "feedback-h5_5": {
+        "ru": "Мария Ларина",
+        "en": "Maria Larina"
+    },
+    "feedback-video_span": {
+        "ru": "Видео-отзывы выпускников",
+        "en": "Video-feedback our students"
+    },
+    "feedback-video_h2": {
+        "ru": "Радуемся успехам наших выпускников",
+        "en": "We rejoice at the success of our graduates"
+    },
+    "feedback-video_name1": {
+        "ru": "Андрей",
+        "en": "Andrey"
+    },
+    "feedback-video_name2": {
+        "ru": "Олег",
+        "en": "Oleg"
+    },
+    "feedback-video_name3": {
+        "ru": "Алексей",
+        "en": "Alexei"
+    },
+    "feedback-video_name4": {
+        "ru": "Михаил",
+        "en": "Michael"
+    },
+    "feedback-video_span1": {
+        "ru": "Из барменов в IT",
+        "en": "From bartenders to IT"
+    },
+    "feedback-video_span2": {
+        "ru": "Из рабочего в IT",
+        "en": "From worker to IT"
+    },
+    "feedback-video_span3": {
+        "ru": "Из маркетолога в IT",
+        "en": "From marketer to IT"
+    },
+    "feedback-video_span4": {
+        "ru": "Из Sales-менеджеров в Back-End",
+        "en": "From Sales Managers to Back-End"
+    },
+    "certificate": {
+        "ru": "Сертификат",
+        "en": "A certificate"
+    },
+    "certificate-h2_span1": {
+        "ru": "Сертификат",
+        "en": "This certificate"
+    },
+    "certificate-h2_span2": {
+        "ru": " — ваша новая суперсила",
+        "en": "is your new superpower!"
+    },
+    "certificate-p": {
+        "ru": "Наши программы в Германии.  Сертификаты наших выпускников  по всей Европе и за её пределами.",
+        "en": "Starta Institute is  Our graduates' certificates are "
+    },
+    "certificate-b1": {
+        "ru": "сертифицированы",
+        "en": "licensed in Germany, and all of our programs are accredited by CERTURIA."
+    },
+    "certificate-b2": {
+        "ru": "ценятся работодателями",
+        "en": "valued by employers throughout Europe and beyond."
+    },
+    "certificate-button_p": {
+        "ru": "ПОЛУЧИТЕ КАРЬЕРНУЮ КОНСУЛЬТАЦИЮ",
+        "en": "GET CAREER ADVICE NOW"
+    },
+    "certificate-button": {
+        "ru": "ОСТАВИТЬ ЗАЯВКУ",
+        "en": "SUBMIT APPLICATION"
+    },
+    "about-finance": {
+        "ru": "Другие возможности",
+        "en": "Other opportunities"
+    },
+    "about-finance_h2": {
+        "ru": "Получите государственное финансирование обучения",
+        "en": "Get funding assistance in Germany"
+    },
+    "left-finance_p-span1": {
+        "ru": "Учитесь за счёт государства,",
+        "en": "Study at the expense of the state,"
+    },
+    "left-finance_p-span2": {
+        "ru": "если говорите по-английски.",
+        "en": "if you speak English."
+    },
+    "left-finance_p-span3": {
+        "ru": "Вы можете обучаться со 100% оплатой от Jobcenter или Agentur fur Arbeit, если:",
+        "en": "You can study with 100% payment from Jobcenter or Agentur fur Arbeit if:"
+    },
+    "left-finance_p": {
+        "ru": "Если вы подходите под эти критерии, пройдите, пожалуйста, короткий тест, чтобы мы смогли оценить ваши шансы на получение финансирования.",
+        "en": "If you meet these criteria, please take a short test so we can assess your chances of receiving funding."
+    },
+    "left-finance_btn": {
+        "ru": "Пройти тест",
+        "en": "take the test"
+    },
+    "right-finance_p1": {
+        "ru": "Вы проживаете в Германии около года и более",
+        "en": "You are living in Germany"
+    },
+    "right-finance_p2": {
+        "ru": "Вы сейчас не трудоустроены",
+        "en": "You are currently unemployed"
+    },
+    "right-finance_p3": {
+        "ru": "Вы зарегистрированы или планируете зарегистрироваться в JOBCENTER или AGENTUR FÜR ARBEIT",
+        "en": "You are registered in JOBCENTER and AGENTUR FÜR ARBEIT or you are planning to register"
+    },
+    "right-finance_p4": {
+        "ru": " Ваш уровень английского B1-B2",
+        "en": "You have an undergraduate or graduate academic degree"
+    },
+    "right-finance_p5": {
+        "ru": "Наличие высшего или средне-специального законченного образования",
+        "en": "Having completed higher or secondary specialized education"
+    },
+    "last-form": {
+        "ru": "Оставьте заявку",
+        "en": "Submit an application"
+    },
+    "last-form_h2": {
+        "ru": "Начните новую жизнь здесь и сейчас",
+        "en": "Start a new chapter in your life today"
+    },
+    "last-form_p": {
+        "ru": "Оставьте заявку, и наши специалисты подробно расскажут про программу наших курсов",
+        "en": "Once you submit an application, our experts will explain the programs in detail"
+    },
+    "second-name": {
+        "ru": "Фамилия (на английском)*",
+        "en": "Second Name"
+    },
+    "popup-span": {
+        "ru": "Оставьте заявку",
+        "en": "Submit an application"
+    },
+    "popup-h2": {
+        "ru": "Оставьте заявку, и наши специалисты подробно расскажут про программу наших курсов",
+        "en": "Once you submit an application, our experts will explain the programs in detail"
+    },
+    "send-popup": {
+        "ru": "Отправить",
+        "en": "Send"
+    },
+    "send-form": {
+        "ru": "Отправить",
+        "en": "Send"
+    },
+    "footer-p": {
+        "ru": "Международная IT-школа в Европе, Англии и США",
+        "en": "International tech school in Europe, England and the USA"
+    },
+    "footer-h3_first": {
+        "ru": "ПОДПИШИТЕСЬ НА НАС",
+        "en": "FOLLOW US"
+    },
+    "footer-h3_second": {
+        "ru": "СВЯЖИТЕСЬ C НАМИ",
+        "en": "CONTACT US"
+    },
+    "footer-content_p1": {
+        "ru": "Обучаем IT-профессиям и помогаем с трудоустройством",
+        "en": "Teaching IT specialites and assisting in the employment of our students"
+    },
+    "footer-content_p2": {
+        "ru": " *Tel-Ran.de стал частью международного института стартап-профессий Starta Institute, головной офис которого находится в Нью-Йорке",
+        "en": "*Tel-Ran.de has become part of the Starta Institute, an international startup institute headquartered in New York"
+    },
+    "our-mission": {
+        "ru": "НАША МИССИЯ",
+        "en": "OUR MISSION"
+    },
+    "policy": {
+        "ru": "ПОЛИТИКА КОНФИДЕНЦИАЛЬНОСТИ",
+        "en": "PRIVACY POLICY"
+    },
+    "our-contact": {
+        "ru": "НАШИ КОНТАКТЫ:",
+        "en": "OUR CONTACTS:"
+    },
+    "our-address": {
+        "ru": "НАШ АДРЕС:",
+        "en": "OUR ADDRESS:"
+    }
+}

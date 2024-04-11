@@ -1,0 +1,40 @@
+.teachers {
+    & .wrapper {
+
+        & .slider-control {
+            & p {
+                font-size: 25px;
+            }
+
+            & i:nth-child(2) {
+                margin-left: auto;
+            }
+        }
+    
+        & .carousel {
+            & .card {
+                & .card_img {
+                    & img {
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .teachers {
+        & .slider-title {
+            font-size: 45px;
+        }
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .teachers {
+        & .slider-title {
+            font-size: 35px;
+        }
+    }
+}

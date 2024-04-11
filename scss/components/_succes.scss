@@ -1,0 +1,183 @@
+.succes {
+
+    & .wrapper {
+        & .slider-control {
+
+            & #left {
+                position: absolute;
+                right: 100px;
+            }
+
+            & #right {
+                position: absolute;
+                right: 0;
+            }
+        }
+    }
+
+    & .carousel {
+        gap: 200px;
+
+        & .card {
+            width: 460px;
+
+            .card_img {
+                cursor: pointer;
+                width: 100%;
+                height: 360px;
+            }
+
+            & .card_img-one {
+                background-image: url(https://static.tildacdn.net/tild3237-3262-4132-a132-333861333563/ezgifcom-gif-maker-1.gif);
+                background-repeat: no-repeat;
+            }
+
+            & .card_img-two {
+                background-image: url(https://static.tildacdn.net/tild3633-6463-4432-b062-666565343864/ezgifcom-gif-maker_1.gif);
+                background-repeat: no-repeat;
+            }
+
+            & .card_img-three {
+                background-image: url(https://static.tildacdn.net/tild3534-6466-4361-a364-323231363438/ezgifcom-gif-maker-1.gif);
+                background-repeat: no-repeat;
+            }
+
+            & .card_img-four {
+                background-image: url(https://static.tildacdn.net/tild3363-3930-4261-b339-306230343930/ezgifcom-gif-maker-1.gif);
+                background-repeat: no-repeat;
+            }
+
+            & .play {
+                display: block;
+                margin: auto;
+                padding-top: 25%;
+            }
+
+        }
+    }
+}
+
+/* Стили для попапа */
+.popup {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .7);
+    /* Прозрачный фон */
+    z-index: 9999;
+
+    & button {
+        cursor: pointer;
+        color: #f2f2f2;
+        background-color: transparent;
+        border: none;
+        font-size: 35px;
+        position: absolute;
+        right: 10px;
+        top: 10px;
+        font-weight: 200;
+    }
+}
+
+.popup-content {
+    position: absolute;
+    top: 50%;
+    width: 55%;
+    height: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    border-radius: 5px;
+
+    & iframe {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+/* Стили для фото */
+.photo {
+    cursor: pointer;
+    /* Изменение курсора при наведении для обозначения кликабельности */
+    margin: 10px;
+}
+
+@media only screen and (max-width: 1024px) {
+    .succes {
+
+        & .wrapper {
+
+            & .slider-control {
+
+                .slider-title {
+                    font-size: 30px;
+                }
+            }
+        }
+
+        & .carousel {
+
+            & .card {
+                width: 300px;
+
+                .card_img {
+                    background-position: 50%;
+                }
+            }
+        }
+    }
+
+}
+
+@media only screen and (max-width: 768px) {
+    .succes {
+
+        & .wrapper {
+
+            & .slider-control {
+
+                .slider-title {
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .slider .slider-control .left-arrow {
+        cursor: pointer;
+        width: 40px;
+    }
+
+    .slider .slider-control .right-arrow {
+        cursor: pointer;
+        width: 40px;
+    }
+
+    .succes {
+
+        & .wrapper {
+
+            & .slider-control {
+
+                & #left {
+                    position: absolute;
+                    right: 25px;
+                }
+
+                & #right {
+                    position: absolute;
+                    right: 0;
+                }
+
+                .slider-title {
+                    font-size: 13px;
+                }
+            }
+        }
+    }
+}

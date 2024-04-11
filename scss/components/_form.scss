@@ -1,0 +1,145 @@
+.popup_form {
+
+    .popup-content {
+        width: 40%;
+        padding-left: 5%;
+        padding-top: 5%;
+        height: 100%;
+        background-color: #f2f2f2;
+
+        & .yellow-circle {
+            color: #111;
+
+            & button {
+                color: #111;
+                margin-top: 5%;
+            }
+        }
+
+        & .last_form-content {
+            display: block;
+
+            & .last_form-content__left {
+                width: 100%;
+
+                & h2 {
+                    font-size: 40px;
+                }
+            }
+
+            & .last_form-content__right {
+                width: 90%;
+
+                & form {
+                    & .name-group {
+                        display: flex;
+                        justify-content: space-between;
+
+                        & .form-group {
+                            width: 45%;
+                        }
+                    }
+
+                    & .select_programm {
+                        margin-top: 5%;
+                        width: 105%;
+                        height: 50px;
+                    }
+
+                    & .checkbox-container {
+                        margin-top: 5%;
+
+                        & input {
+
+                            & a {
+                                color: #111;
+                                margin-left: 15px;
+                            }
+                        }
+                    }
+                }
+            }
+
+        }
+
+        & p {
+            color: #111;
+        }
+    }
+
+    & .send {
+        margin-left: 2%;
+        position: relative;
+        color: #f2f2f2;
+        margin-bottom: 10%;
+        padding: 5px 20px;
+        background-color: #111;
+        margin-top: 5%;
+        border: none;
+        cursor: pointer;
+    }
+}
+
+.invalid {
+    border: 1px solid red !important; /* !important гарантирует, что этот стиль будет применяться */
+}
+
+@media only screen and (max-width: 427px) {
+    .popup_form {
+
+        .popup-content {
+            width: 90%;
+            height: 100%;
+
+            & .yellow-circle {
+                padding-top: 10%;
+            }
+
+            & .last_form-content {
+
+                & .last_form-content__left {
+                    width: 100%;
+
+                    & h2 {
+                        font-size: 25px;
+                    }
+                }
+
+                & .last_form-content__right {
+                    width: 90%;
+
+                    & form {
+
+
+                        & .select_programm {
+                            margin-top: 5%;
+                            width: 105%;
+                            height: 50px;
+                        }
+
+                        & .checkbox-container {
+                            margin-top: 5%;
+
+                            & input {
+
+                                & a {
+                                    margin-left: 15px;
+                                }
+                            }
+                        }
+                    }
+                }
+
+            }
+
+        }
+
+        & .send {
+            margin-left: 2%;
+            position: relative;
+            margin-bottom: 10%;
+            padding: 5px 20px;
+            margin-top: 10%;
+        }
+    }
+}

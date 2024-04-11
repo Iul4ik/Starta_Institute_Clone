@@ -1,0 +1,27 @@
+@import 'https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap';
+@import "scss/components/reset.scss";
+@import "scss/components/header.scss";
+@import "scss/components/header_burger.scss";
+@import "scss/components/first_content";
+@import "scss/components/second_content";
+@import "scss/components/thirt_content";
+@import "scss/components/slider.scss";
+@import "scss/components/form.scss";
+@import "scss/components/option.scss";
+@import "scss/components/learn.scss";
+@import "scss/components/last_form.scss";
+@import "scss/components/footer.scss";
+@import "scss/components/finance.scss";
+@import "scss/components/certificate.scss";
+@import "scss/components/teachers.scss";
+@import "scss/components/review.scss";
+@import "scss/components/succes.scss";
+
+body {
+    background-color: #111;
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+

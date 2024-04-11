@@ -1,0 +1,109 @@
+.learn-background {
+    background-image: url(https://optim.tildacdn.net/tild3166-3063-4366-a237-613664353637/-/format/webp/Ellipse_136.png);
+    background-repeat: no-repeat;
+    background-size: 50%;
+    width: 100%;
+    z-index: 1002;
+    height: 100%;
+    left: 0;
+    background-position: -15% 0%;
+}
+
+.learn {
+    margin-bottom: 200px;
+    margin-left: 10%;
+    margin-right: 10%;
+
+    & h2 {
+        font-size: 75px;
+        color: #f2f2f2;
+        margin-top: 50px;
+        margin-bottom: 200px;
+    }
+}
+
+.learn-grid {
+    display: grid;
+    grid-template-rows: repeat(3, 2fr);
+    grid-template-columns: repeat(3, 3fr);
+
+    & div {
+        border: 1px solid #f2f2f2;
+        padding-top: 5%;
+        padding-left: 5%;
+        font-size: 40px;
+    }
+
+    .yellow {
+        color: #000;
+        background-color: gold;
+    }
+
+    .black {
+        color: #f2f2f2;
+        background-color: #111;
+    }
+
+    & .arrow {
+        fill: #f2f2f2;
+        animation-name: arrowMove;
+        transform: rotate(10deg);
+        animation-duration: 700ms;
+        animation-iteration-count: infinite;
+    }
+
+    @keyframes arrowMove {
+        0% {
+            transform: rotate(-15deg);
+        }
+
+        50% {
+            transform: rotate(15deg);
+        }
+
+        100% {
+            transform: rotate(-15deg);
+        }
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .learn-grid {
+        display: grid;
+        grid-template-rows: repeat(2, 2fr);
+        grid-template-columns: repeat(2, 3fr);
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .learn-grid {
+        display: grid;
+        grid-template-rows: repeat(1, 1fr);
+        grid-template-columns: repeat(1, 2fr);
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .learn-grid {
+
+        & p {
+            font-size: 35px;
+        }
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .learn-grid {
+
+        & p {
+            font-size: 25px;
+        }
+    }
+
+    .learn {
+    
+        & h2 {
+            font-size: 45px;
+        }
+    }
+}
