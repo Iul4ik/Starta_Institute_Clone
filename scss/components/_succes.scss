@@ -109,6 +109,12 @@
     margin: 10px;
 }
 
+@media only screen and (max-width: 1440px) {
+    .succes .wrapper .slider-control h2 {
+        font-size: 50px;
+    }
+}
+
 @media only screen and (max-width: 1024px) {
     .succes {
 
@@ -126,6 +132,10 @@
 
             & .card {
                 width: 300px;
+
+                & .play {
+                    padding-top: 45%;
+                }
 
                 .card_img {
                     background-position: 50%;
@@ -145,6 +155,14 @@
 
                 .slider-title {
                     font-size: 20px;
+                }
+
+                & i {
+
+                    & img {
+                        width: 45px;
+                        height: 45px;
+                    }
                 }
             }
         }
@@ -168,9 +186,16 @@
 
             & .slider-control {
 
+                & i {
+                    & img {
+                        width: 30px;
+                        height: 30px;
+                    }
+                }
+
                 & #left {
                     position: absolute;
-                    right: 25px;
+                    right: 40px;
                 }
 
                 & #right {
@@ -180,6 +205,68 @@
 
                 .slider-title {
                     font-size: 13px;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .succes {
+
+        & .wrapper {
+
+            & .slider-control {
+
+                & i {
+                    & img {
+                        width: 25px;
+                        height: 25px;
+                    }
+                }
+
+                & #left {
+                    position: absolute;
+                    right: 40px;
+                }
+
+                & #right {
+                    position: absolute;
+                    right: 0;
+                }
+
+                .slider-title {
+                    display: block;
+                    font-size: 12px;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .succes {
+
+        & .wrapper {
+
+            & .slider-control {
+
+                & i {
+                    & img {
+                        width: 20px;
+                        height: 20px;
+                    }
+                }
+
+                & #left {
+                    position: absolute;
+                    right: 30px;
+                }
+
+
+                .slider-title {
+                    display: block;
+                    font-size: 11px;
                 }
             }
         }

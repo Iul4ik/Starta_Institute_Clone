@@ -1,11 +1,12 @@
 .footer {
+    margin-top: -10px;
     padding-top: 100px;
     padding-left: 10%;
     padding-right: 10%;
     width: 80%;
     background-color: #f2f2f2;
     color: #111;
-    padding-bottom: 200px;
+    padding-bottom: 100px;
 
     & hr {
         height: 2px;
@@ -143,6 +144,12 @@
     }
 }
 
+@media only screen and (max-width: 1440px) {
+    .footer_top-right {
+        white-space: nowrap;
+    }
+}
+
 @media only screen and (max-width: 1024px) {
     .footer_top-left {
         width: 30%;
@@ -200,7 +207,7 @@
 
             & .ul-thirt1 {
                 & li:nth-child(2) {
-                    & a  {
+                    & a {
                         margin-bottom: 5px;
                         display: block;
                     }
@@ -393,7 +400,6 @@
             & li {
                 & a {
                     color: #111;
-                    font-size: 14px;
                 }
 
                 & span {

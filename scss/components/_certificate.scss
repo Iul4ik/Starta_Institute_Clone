@@ -84,11 +84,43 @@
         }
 
         & .certificate_content {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+
+            & .certificate_button {
+                width: 30%;
+                // text-align: center;
+
+                & p {
+                    font-size: 15px;
+                    margin-bottom: -20px;
+                }
+            }
+
+
+            & .certificate_diplom {
+                margin-top: 5%;
+
+                & img {
+                    width: 250px;
+                    margin-right: 20px;
+
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .certificate {
+
+        & .certificate_content {
             display: block;
             align-items: center;
 
             & .certificate_button {
-                width: 30%;
+                width: 70%;
                 text-align: center;
 
                 & p {
@@ -103,6 +135,7 @@
 
                 & img {
                     width: 250px;
+                    margin-top: 20px;
                     margin-right: 20px;
 
                 }

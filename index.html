@@ -146,80 +146,6 @@
         </section>
         <!-- </Баннер> -->
 
-        <!-- <Попап> -->
-        <div id="popup" class="popup popup_form">
-            <div class="popup-content">
-
-                <div class="yellow-circle">
-                    <div class="circle"></div>
-                    <span class="circle-title" data-lang="popup-span"></span>
-                    <button onclick="closePopup('popup')"><img
-                            src="	https://static.tildacdn.net/tild6164-3139-4265-b636-613863336131/close.svg"
-                            alt=""></button>
-                </div>
-
-                <div class="last_form-content">
-                    <div class="last_form-content__left">
-                        <h2 data-lang="popup-h2"></h2>
-                    </div>
-
-                    <div class="last_form-content__right">
-                        <form>
-
-                            <div class="name-group">
-                                <div class="form-group">
-                                    <input type="text" id="first_name" class="first_name" name="first_name"
-                                        placeholder="Имя (на английском)*">
-                                </div>
-
-                                <div class="form-group">
-                                    <input type="text" id="last_name" class="last_name" name="last_name"
-                                        placeholder="Фамилия (на английском)*">
-                                </div>
-                            </div>
-
-
-                            <div class="input-group">
-                                <div class="form-group">
-                                    <select id="country1" name="country">
-                                        <option value="+49" selected>Germany</option>
-                                    </select>
-                                </div>
-
-                                <div class="form-group">
-                                    <input type="text" id="phone_number1" name="phone_number"
-                                        placeholder="Номер телефона" value="+49">
-                                </div>
-                            </div>
-
-                            <div class="email-group">
-                                <input type="email" id="email" name="email" placeholder="Email*">
-                            </div>
-
-                            <select class="select_programm" name="choose" id="select">
-                                <option value="" disabled selected>Select Programm</option>
-                                <option value="variant1">Front-End Development</option>
-                                <option value="variant2">Back-End Development</option>
-                                <option value="variant3">QA Testing</option>
-                                <option value="variant4">Digital Marketer</option>
-                            </select>
-
-
-                            <label class="checkbox-container">
-                                <input type="checkbox">
-                                I agree with the <a href="#" style="margin-left: 5px; color:#111;">Privacy
-                                    Policy*</a>
-                            </label>
-                            <button class="send" data-lang="send-popup">Send</button>
-                        </form>
-
-                    </div>
-
-                </div>
-                <!-- Содержимое попапа -->
-            </div>
-        </div>
-        <!-- </Попап> -->
         <!-- <Второй Контент> -->
         <section class="second-content" id="about">
 
@@ -1071,7 +997,7 @@
         <!-- </Сертификат> -->
 
         <!-- <Финансы> -->
-        <section class="finance">
+        <section class="finance" id="funding">
 
             <div class="yellow-circle">
                 <div class="circle"></div>
@@ -1153,7 +1079,7 @@
         <!-- </Финансы> -->
 
         <!-- <Последняя форма> -->
-        <section id="funding" class="last_form">
+        <section  class="last_form">
             <div class="yellow-circle">
                 <div class="circle"></div>
                 <span class="circle-title" data-lang="last-form"></span>
@@ -1166,6 +1092,7 @@
                 </div>
 
                 <div class="last_form-content__right">
+
                     <form>
 
                         <div class="name-group">
@@ -1206,12 +1133,13 @@
                             <option value="variant4">Digital Marketer</option>
                         </select>
 
-
                         <label class="checkbox-container">
                             <input type="checkbox">
                             I agree with the<a href="#" style="margin-left: 10px;">Privacy Policy*</a>
                         </label>
+
                         <button class="send" data-lang="send-form">Send</button>
+                        
                     </form>
 
                 </div>
@@ -1315,25 +1243,83 @@
     </main>
     <!-- </Вся страница> -->
 
-    <!-- <Форма> -->
-    <div class="popup__bg">
-        <form class="popup">
-            <div class="popup-header">
-                <div class="yellow-circle">
-                    <div class="circle"></div>
-                    <span>Оставьте заявку</span>
+    <!-- <Попап> -->
+    <div id="popup" class="popup popup_form">
+        <div class="popup-content">
+
+            <div class="yellow-circle">
+                <div class="circle"></div>
+                <span class="circle-title" data-lang="popup-span"></span>
+                <button class="close-popup" onclick="closePopup('popup')"><img
+                        src="	https://static.tildacdn.net/tild6164-3139-4265-b636-613863336131/close.svg"
+                        alt=""></button>
+            </div>
+
+            <div class="last_form-content">
+                <div class="last_form-content__left">
+                    <h2 data-lang="popup-h2"></h2>
                 </div>
-                <div class="close-popup"><img src="./img/x.svg" alt=""></div>
+
+                <div class="last_form-content__right">
+                   
+                    <form>
+
+                        <div class="name-group">
+                            
+                            <div class="form-group">
+                                <input type="text" id="first_name" class="first_name" name="first_name"
+                                    placeholder="Имя (на английском)*">
+                            </div>
+
+                            <div class="form-group">
+                                <input type="text" id="last_name" class="last_name" name="last_name"
+                                    placeholder="Фамилия (на английском)*">
+                            </div>
+
+                        </div>
+
+
+                        <div class="input-group">
+                            <div class="form-group">
+                                <select id="country1" name="country">
+                                    <option value="+49" selected>Germany</option>
+                                </select>
+                            </div>
+
+                            <div class="form-group">
+                                <input type="text" id="phone_number1" name="phone_number" placeholder="Номер телефона"
+                                    value="+49">
+                            </div>
+                        </div>
+
+                        <div class="email-group">
+                            <input type="email" id="email" name="email" placeholder="Email*">
+                        </div>
+
+                        <select class="select_programm" name="choose" id="select">
+                            <option value="" disabled selected>Select Programm</option>
+                            <option value="variant1">Front-End Development</option>
+                            <option value="variant2">Back-End Development</option>
+                            <option value="variant3">QA Testing</option>
+                            <option value="variant4">Digital Marketer</option>
+                        </select>
+
+
+                        <label class="checkbox-container">
+                            <input type="checkbox">
+                            I agree with the <a href="#" style="margin-left: 5px; color:#111;">Privacy
+                                Policy*</a>
+                        </label>
+                        <button class="send" data-lang="send-popup">Send</button>
+                    </form>
+                    
+                </div>
+
             </div>
-            <h2 class="form-title">Оставьте заявку, и наши специалисты подробнее расскажут о программах курсов</h2>
-            <div class="form">
-                <input type="text" placeholder="Имя (на английском)*">
-                <input type="text" placeholder="Фамилия (на английском)">
-            </div>
-            <button type="submit">Отправить</button>
-        </form>
+            <!-- Содержимое попапа -->
+        </div>
     </div>
-    <!-- </Форма> -->
+    <!-- </Попап> -->
 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="script/translate/translate_lang.js"></script>

@@ -1,138 +1,199 @@
-/* Стили для контейнера с галочкой */
-.checkbox-container {
-  display: flex;
-  align-items: center;
-  font-size: 16px;
-  cursor: pointer;
-}
-
-/* Стили для самой галочки */
-.checkbox-container input {
-  margin-right: 8px;
-  color: #111;
-
-}
-
-.choose {
-  margin-top: 5%;
-  width: 105%;
-  margin-bottom: 5%;
-}
-
-/* Общие стили */
 .last_form {
-  padding-top: 200px;
-  padding-left: 10%;
-  padding-right: 10%;
-  color: #111;
-  background-color: #f2f2f2;
-
-  & .yellow-circle {
+    background-color: #f2f2f2;
+    width: 80%;
+    margin-top: -10px;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 50px;
     color: #111;
-  }
+    padding-top: 200px;
+
+    & .yellow-circle {
+        color: #111;
+    }
+
+    & .last_form-content {
+        margin-top: 50px;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+        & .last_form-content__left {
+            width: 50%;
+
+            & h2 {
+                font-size: 65px;
+            }
+
+            & p {
+                margin-top: 50px;
+                font-size: 20px;
+            }
+        }
+
+        & .last_form-content__right {
+            & form {
+                & .name-group {
+                    display: flex;
+                    justify-content: space-between;
+                }
+
+                input[type="text"],
+                select,
+                input[type="email"] {
+                    width: 100%;
+                    height: 40px;
+                    border: 1px solid #ccc;
+                    border-radius: 5px;
+                    padding: 5px 10px;
+                }
+
+                input[type="text"]:focus,
+                select:focus,
+                input[type="email"]:focus {
+                    outline: none;
+                    border-color: blue;
+                }
+
+                & .input-group {
+                    margin-top: 10px;
+                    align-items: center;
+                    display: flex;
+                    justify-content: space-between;
+
+                    & .form-group {
+                        & select {
+                            height: 50px;
+                        }
+                    }
+                }
+
+                & .email-group {
+                    margin-top: 10px;
+
+                    & input {
+                        width: 100%;
+                    }
+                }
+
+                & .choose {
+                    margin-top: 10px;
+                    display: block;
+                    width: 105%;
+                }
+
+                & .checkbox-container {
+                    display: block;
+                    margin-top: 20px;
+                    font-size: 16px;
+                    cursor: pointer;
+
+                    & input {
+                        margin-right: 8px;
+                        color: #111;
+
+                    }
+                }
+
+                & .send {
+                    margin-top: 5%;
+                    background-color: #111;
+                    cursor: pointer;
+                    border: none;
+                    color: #f2f2f2;
+                    font-size: 18px;
+                    padding: 10px 30px;
+                }
+
+                .invalid {
+                    border: 1px solid red !important;
+                }
+            }
+        }
+
+    }
 }
 
-/* Стили для желтого круга */
-.yellow-circle {
-  display: flex;
-  align-items: center;
-}
-
-.circle {
-  width: 20px;
-  height: 20px;
-  background-color: yellow;
-  border-radius: 50%;
-  margin-right: 10px;
-}
-
-.circle-title {
-  font-size: 24px;
-}
-
-/* Стили для содержимого формы */
-.last_form-content {
-  margin-top: 50px;
-  display: flex;
-  align-items: center;
-  flex-wrap: wrap;
-  /* Разрешаем перенос элементов на следующую строку */
-  justify-content: space-between;
-}
-
-.last_form-content__left,
-.last_form-content__right {
-  width: calc(50% - 10px);
-  /* Учитываем отступы между элементами */
-}
-
-.last_form-content__left h2 {
-  font-size: 75px;
-  margin-bottom: 20px;
-  /* Добавляем отступ после заголовка */
-}
-
-.last_form-content__left p {
-  font-size: 20px;
-  width: 70%;
-}
-
-.form-group {
-  margin-bottom: 20px;
-}
-
-input[type="text"],
-select,
-input[type="email"] {
-  width: 100%;
-  height: 40px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  padding: 5px 10px;
-}
-
-/* Стили для фокуса на элементах формы */
-input[type="text"]:focus,
-select:focus,
-input[type="email"]:focus {
-  outline: none;
-  border-color: blue;
-}
-
-.send {
-  background-color: #111;
-  cursor: pointer;
-  border: none;
-  color: #f2f2f2;
-  font-size: 18px;
-  padding: 10px 30px;
-  margin-top: 5%;
-}
 
 /* Адаптивность */
+@media screen and (max-width: 1024px) {
+    .last_form {
+        & .last_form-content {
+            & .last_form-content__left {
+                & p {
+                    margin-top: 30px;
+                }
+
+                width: 100%;
+                margin-bottom: 50px;
+            }
+        }
+    }
+
+}
+
 @media screen and (max-width: 768px) {
 
-  .last_form-content__left,
-  .last_form-content__right {
-    width: 100%;
-    /* На устройствах с шириной экрана менее 768px делаем блоки на всю ширину */
-  }
+    .last_form-content__left,
+    .last_form-content__right {
+        width: 100%;
+        /* На устройствах с шириной экрана менее 768px делаем блоки на всю ширину */
+    }
 
-  .last_form-content__left h2 {
-    font-size: 24px;
-    /* Уменьшаем размер заголовка */
-  }
+    .last_form-content__left h2 {
+        font-size: 24px;
+        /* Уменьшаем размер заголовка */
+    }
 }
 
 @media screen and (max-width: 480px) {
-  .circle {
-    width: 15px;
-    /* Уменьшаем размер желтого круга для маленьких экранов */
-    height: 15px;
-  }
+    .circle {
+        width: 15px;
+        /* Уменьшаем размер желтого круга для маленьких экранов */
+        height: 15px;
+    }
 
-  .last_form-content__left h2 {
-    font-size: 20px;
-    /* Еще больше уменьшаем размер заголовка */
-  }
+    .last_form-content__left h2 {
+        font-size: 20px;
+        /* Еще больше уменьшаем размер заголовка */
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .last_form {
+
+        & .last_form-content {
+
+            .last_form-content__right {
+                & form {
+
+                    .name-group {
+                        display: block;
+
+                        & .form-group:nth-child(1) {
+                            margin-bottom: 5%;
+                        }
+                    }
+                }
+            }
+
+        }
+
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .last_form {
+
+        & .last_form-content {
+
+            .last_form-content__left {
+
+                h2 {
+                    font-size: 45px;
+                }
+            }
+        }
+    }
 }

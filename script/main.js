@@ -73,6 +73,18 @@ for (let i = 0; i < photos.length; i++) {
     })(i));
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
 $(document).ready(function () {
     // Функция для заполнения данных стран в выпадающем списке
     function populateCountries(countryDropdown, phoneNumberField) {
@@ -103,71 +115,94 @@ $(document).ready(function () {
     populateCountries($('#country1'), $('#phone_number1'));
     populateCountries($('#country2'), $('#phone_number2'));
 
-    // Обработка события отправки формы
-    $('form').submit(function (event) {
-        // Проверка каждого поля на заполненность
-        let isValid = true;
-        $(this).find('input[type="text"], input[type="email"], input[type="tel"], select').each(function () {
-            if (!$(this).val()) {
-                isValid = false;
-                $(this).addClass('invalid'); // Добавляем класс invalid для незаполненных полей
-            } else {
-                $(this).removeClass('invalid'); // Убираем класс invalid для заполненных полей
-            }
-        });
 
-        // Проверка поля номера телефона на заполненность и правильность заполнения
-        let phoneNumber1 = $('#phone_number1').val();
-        let phoneNumber2 = $('#phone_number2').val();
-        let countryCode1 = $('#country1').val(); // Получаем значение (код) выбранной страны
-        let countryCode2 = $('#country2').val(); // Получаем значение (код) выбранной страны
 
-        // Проверяем, что поле ввода номера телефона не пустое и начинается с кода страны
-        if (phoneNumber1 && !phoneNumber1.startsWith(countryCode1)) {
-            $('#phone_number1').addClass('invalid');
+
+
+    
+// Обработка события отправки формы
+$('form').submit(function (event) {
+    // Проверка каждого поля на заполненность
+    let isValid = true;
+    $(this).find('input[type="text"], input[type="email"], input[type="tel"], select').each(function () {
+        if (!$(this).val()) {
             isValid = false;
+            $(this).addClass('invalid'); // Добавляем класс invalid для незаполненных полей
         } else {
-            $('#phone_number1').removeClass('invalid');
+            $(this).removeClass('invalid'); // Убираем класс invalid для заполненных полей
         }
+    });
 
-        if (phoneNumber2 && !phoneNumber2.startsWith(countryCode2)) {
-            $('#phone_number2').addClass('invalid');
-            isValid = false;
-        } else {
-            $('#phone_number2').removeClass('invalid');
-        }
+    // Проверка поля номера телефона на заполненность и правильность заполнения
+    let phoneNumber1 = $('#phone_number1').val();
+    let phoneNumber2 = $('#phone_number2').val();
+    let countryCode1 = $('#country1').val(); // Получаем значение (код) выбранной страны
+    let countryCode2 = $('#country2').val(); // Получаем значение (код) выбранной страны
 
-        // Проверка чекбокса на отмеченность
-        if (!$('input[type="checkbox"]').is(':checked')) {
-            isValid = false;
-            $('label.checkbox-container').addClass('invalid');
-        } else {
-            $('label.checkbox-container').removeClass('invalid');
-        }
+    // Проверяем, что поле ввода номера телефона не пустое и начинается с кода страны
+    if (phoneNumber1 && !phoneNumber1.startsWith(countryCode1)) {
+        $('#phone_number1').addClass('invalid');
+        isValid = false;
+    } else {
+        $('#phone_number1').removeClass('invalid');
+    }
 
+    if (phoneNumber2 && !phoneNumber2.startsWith(countryCode2)) {
+        $('#phone_number2').addClass('invalid');
+        isValid = false;
+    } else {
+        $('#phone_number2').removeClass('invalid');
+    }
+
+    // Проверка чекбокса на отмеченность
+    if (!$('input[type="checkbox"]').is(':checked')) {
+        isValid = false;
+        $('label.checkbox-container').addClass('invalid');
+    } else {
+        $('label.checkbox-container').removeClass('invalid');
+    }
+
+    // Если форма прошла проверку, выводим алерт и разрешаем отправку формы
+    if (isValid) {
+        alert('Форма отправлена');
+    } else {
         // Если есть хотя бы одно незаполненное поле или неверно заполненное поле, предотвращаем отправку формы
-        if (!isValid) {
-            event.preventDefault();
-            alert('Пожалуйста, заполните все обязательные поля и отметьте согласие с политикой конфиденциальности.');
-        }
-    });
-
-    // Убираем класс invalid при фокусировке на незаполненном поле
-    $('form input, form select').focus(function () {
-        $(this).removeClass('invalid');
-    });
-
-    // Проверка поля номера телефона при вводе
-    $('#phone_number1, #phone_number2').on('input', function () {
-        let phoneNumber = $(this).val();
-        let countryCode = $(this).closest('.input-group').find('select').val();
-        if (phoneNumber && !phoneNumber.startsWith(countryCode)) {
-            $(this).addClass('invalid');
-        } else {
-            $(this).removeClass('invalid');
-        }
-    });
+        event.preventDefault();
+    }
 });
+
+// Убираем класс invalid при фокусировке на незаполненном поле
+$('form input, form select').focus(function () {
+    $(this).removeClass('invalid');
+});
+
+// Проверка поля номера телефона при вводе
+$('#phone_number1, #phone_number2').on('input', function () {
+    let phoneNumber = $(this).val();
+    let countryCode = $(this).closest('.input-group').find('select').val();
+    if (phoneNumber && !phoneNumber.startsWith(countryCode)) {
+        $(this).addClass('invalid');
+    } else {
+        $(this).removeClass('invalid');
+    }
+});
+
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 // Функция для открытия и закрытия попапа
 function togglePopup(popupId) {

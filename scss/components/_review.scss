@@ -71,7 +71,7 @@
                 position: absolute;
                 right: 70px;
             }
-    
+
             & #right {
                 position: absolute;
                 right: 0;
@@ -79,6 +79,25 @@
 
             & .slider-title {
                 font-size: 20px;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .reviews {
+
+        & .slider-control {
+
+            & i {
+                & img {
+                    width: 30px;
+                    height: 30px;
+                }
+            }
+
+            & #left {
+                right: 50px;
             }
         }
     }

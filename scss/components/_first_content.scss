@@ -20,7 +20,7 @@
 .img-second {
     position: absolute;
     top: 20%;
-    width: 16%;
+    width: 15%;
     right: 5%;
     transform: translate(-8%, 0%);
 }
@@ -106,7 +106,7 @@
     top: 60%;
     z-index: 1001;
     white-space: nowrap;
-    width: 25%;
+    width: 45%;
     display: flex;
     flex-direction: column;
 }
@@ -200,7 +200,6 @@
 
 @media only screen and (max-width: 1440px) {
     .first-content {
-        height: 150vh;
     }
 
     .img-second {
@@ -220,18 +219,18 @@
     }
 
     .text-content_bottom {
-        top: 50%;
+        top: 45%;
     }
 
     .btn-popup {
-        width: 35%;
+        width: 30%;
     }
 }
 
 
 @media only screen and (max-width: 1024px) {
     .first-content {
-        height: 110vh;
+        height: 60vh;
         background-position: 80% 0%, 100% 0%;
     }
 
@@ -239,36 +238,42 @@
         width: 30%;
         height: 300px;
         left: 30%;
+        top: 5%;
     }
 
     .img-second {
         width: 20%;
+        top: 14%;
         height: 200px;
     }
 
     .img-thirt {
         top: 60%;
-        width: 35%;
+        width: 30%;
     }
 
     .title-content {
-        top: 17%;
+        top: 5%;
         font-size: 45px;
         line-height: 55px;
     }
 
     .a1 {
         top: 0%;
+        width: 25px;
+        height: 25px;
         left: 74%;
     }
 
     .a2 {
         top: 15%;
+        width: 25px;
+        height: 25px;
     }
 
     .text-content_info {
         font-size: 12px;
-        top: 18%;
+        top: 5%;
     }
 
     .text-content_bottom {
@@ -281,23 +286,23 @@
     .btn-popup {
         width: 45%;
         left: 0%;
-        top: 70%;
+        top: 75%;
     }
 
     .line-number {
-        top: 90%;
+        top: 100%;
     }
 }
 
 @media only screen and (max-width: 768px) {
     .first-content {
-        height: 120vh;
+        height: 65vh;
         background-position: 10% 50%, 50% 0%;
     }
 
     .img-first {
         width: 35%;
-        top: 35%;
+        top: 20%;
         height: 300px;
         left: 50%;
     }
@@ -306,7 +311,7 @@
         width: 20%;
         height: 180px;
         right: 60%;
-        top: 15%;
+        top: 5%;
     }
 
     .img-thirt {
@@ -314,24 +319,36 @@
     }
 
     .title-content {
-        top: 30%;
+        top: 15%;
         font-size: 40px;
-        line-height: 60px;
+        line-height: 50px;
+    }
+
+    .a1 {
+        width: 20px;
+        height: 20px;
+    }
+
+    .a2 {
+        width: 20px;
+        height: 20px;
     }
 
 
     .text-content_info {
         font-size: 14px;
-        top: 18%;
+        top: 4%;
+        right: 5%;
     }
 
     .text-content_bottom {
-        top: 55%;
+        top: 45%;
+        font-size: 20px;
     }
 
     .btn-popup {
         width: 55%;
-        top: 85%;
+        top: 80%;
     }
 
     .line-number {
@@ -351,7 +368,7 @@
 
 @media only screen and (max-width: 426px) {
     .first-content {
-        height: 120vh;
+        height: 100vh;
         margin-left: 0;
         margin-right: 0;
         background-position: 10% 50%, 50% 0%;
@@ -391,24 +408,24 @@
 
     .text-content_info {
         font-size: 18px;
-        top: 5%;
+        top: 10%;
         right: 15px;
     }
 
     .text-content_bottom {
-        top: 48%;
-        font-size: 18px;
+        top: 50%;
+        font-size: 20px;
         left: 5%;
     }
 
     .btn-popup {
         width: 90%;
         left: 5%;
-        top: 65%;
+        top: 75%;
     }
 
     .line-number {
-        top: 85%;
+        top: 90%;
     }
 
     .line-number_child {
@@ -431,7 +448,7 @@
     }
 
     .title-content {
-        top: 15%;
+        top: 20%;
         font-size: 35px;
     }
 
@@ -449,13 +466,13 @@
     }
 
     .text-content_bottom {
-        top: 44%;
+        top: 50%;
         font-size: 17px;
     }
 
     .btn-popup {
         width: 90%;
-        top: 70%;
+        top: 75%;
     }
 
     .line-number {
@@ -465,37 +482,40 @@
 
 @media only screen and (max-width: 321px) {
     .title-content {
-        top: 20%;
+        top: 25%;
         font-size: 28px;
     }
 
     .a1 {
-        left: 78%;
-        height: 25px;
-        width: 25px;
+        left: 81%;
+        top: 2%;
+        height: 15px;
+        width: 15px;
     }
 
     .a2 {
-        height: 25px;
-        width: 25px;
-        top: 7%;
-        left: -3%;
+        height: 15px;
+        width: 15px;
+        top: 13%;
+        left: -2%;
     }
 
     .text-content_info {
         font-size: 14px;
+        width: 100%;
     }
 
     .text-content_bottom {
-        top: 50%;
+        width: 80%;
+        top: 52%;
         font-size: 16px;
     }
 
     .btn-popup {
-        width: 90%;
+        width: 100%;
         left: 0;
         right: 0;
-        top: 75%;
+        top: 70%;
     }
 
     .explicite {

@@ -66,10 +66,6 @@
 .option1 {
     background-size: 115%;
     background-position: -100% -10%;
-
-    & .hr-dashed-bg {
-        margin-top: 40px;
-    }
 }
 
 .option2 {
@@ -86,7 +82,7 @@
     background-position: 100% 55%;
 
     & .hr-dashed-bg {
-        margin-top: 105px;
+        margin-top: 90px;
     }
 }
 
@@ -95,7 +91,7 @@
     background-position: 100% 0%;
 
     & .hr-dashed-bg {
-        margin-top: 10px;
+        margin-top: 45px;
     }
 }
 
@@ -113,9 +109,11 @@
 }
 
 .border {
+    text-align: center;
     border: 2px solid black;
     padding: 15px 0;
     width: auto;
+    white-space: nowrap;
     margin-bottom: 10px;
     font-size: 15px;
 }
@@ -148,19 +146,23 @@
 }
 
 .option-btn {
-    text-transform: uppercase;
-    cursor: pointer;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    text-transform: uppercase;
+    background-color: gold;
+    cursor: pointer;
     font-size: 25px;
     padding: 15px 10px;
-    background-color: gold;
-    border: none;
+    justify-content: center;
     width: 80%;
+    border: none;
     margin-top: 10%;
     margin-left: 10%;
     margin-right: 10%;
+
+    & img {
+        padding-top: 0;
+    }
 
     &:hover {
         background-color: #f2f2f2;
@@ -171,7 +173,84 @@
 @media only screen and (max-width: 1440px) {
     .option1 {
         & .hr-dashed-bg {
-            margin-top: 60px;
+            margin-top: 40px;
+        }
+    }
+
+    .border-option_active {
+        font-size: small;
+    }
+
+    .option2 {
+        & .hr-dashed-bg {
+            margin-top: 70px;
+        }
+    }
+
+    .option3 {
+        & .hr-dashed-bg {
+            margin-top: 110px;
+        }
+    }
+
+    .option4 {
+        & .hr-dashed-bg {
+            margin-top: 20px;
+        }
+    }
+
+    .card3 {
+        & .img-option {
+            margin-top: 10%;
+        }
+    }
+
+
+}
+
+@media only screen and (max-width: 1024px) {
+    .border {
+        font-size: 15px;
+    }
+
+    .card1,
+    .card2,
+    .card3,
+    .card4 {
+        width: 350px;
+    }
+
+    .border-option {
+
+        & .border-option_active {
+            font-size: 13px;
+        }
+    }
+
+    .card4 {
+        & .img-option {
+            margin-top: 10%;
         }
     }
 }
+
+@media only screen and (max-width: 768px) {
+    .option1 {
+        & .hr-dashed-bg {
+            margin-top: 20px;
+        }
+    }
+
+    .option2 {
+        & .hr-dashed-bg {
+            margin-top: 70px;
+        }
+    }
+
+    .option3 {
+        & .hr-dashed-bg {
+            margin-top: 80px;
+        }
+    }
+}
+

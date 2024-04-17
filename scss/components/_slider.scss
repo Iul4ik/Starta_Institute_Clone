@@ -7,7 +7,7 @@
     color: #f2f2f2;
 
     .slider-title {
-        font-size: 75px;
+        font-size: 65px;
         margin-top: 40px;
         margin-bottom: 40px;
     }
@@ -109,7 +109,7 @@
 
 .carousel .card h2 {
     font-weight: 500;
-    font-size: 40px;
+    font-size: 30px;
     margin: 30px 0 15px;
 }
 
@@ -149,9 +149,34 @@
     }
 }
 
+@media screen and (max-width: 1440px) {
+    .slider {
+        & .slider-control {
+            & .left-arrow {
+                width: 60px;
+                margin-right: 0;
+            }
+
+            & .right-arrow {
+                width: 60px;
+            }
+        }
+
+    }
+}
+
 @media screen and (max-width: 1025px) {
     .btn {
-        width: 40%;
+        width: 50%;
+    }
+
+    .slider2 {
+        & .wrapper {
+
+            & .carousel {
+                grid-auto-columns: auto;
+            }
+        }
     }
 }
 
@@ -171,6 +196,14 @@
         margin-right: 16%;
     }
 
+}
+
+@media screen and (max-width: 769px) {
+    .btn {
+        & span {
+            font-size: 20px;
+        }
+    }
 }
 
 @media screen and (max-width: 600px) {
@@ -203,14 +236,37 @@
     }
 
     .btn {
-        width: 70%;
+        margin-left: 5%;
+        margin-right: 5%;
+        width: 90%;
 
         & span {
-            font-size: 14px;
+            font-size: 16px;
         }
 
     }
 }
+
+
+@media screen and (max-width: 375px) {
+    .btn {
+        margin-left: 5%;
+        margin-right: 5%;
+        width: 90%;
+
+        & button {
+            & span {
+
+                font-size: 25px;
+            }
+        }
+
+        & span {
+            font-size: 14px;
+        }
+    }
+}
+
 
 @media screen and (max-width: 320px) {
     .slider {
@@ -226,7 +282,6 @@
     }
 
     .btn {
-        width: 70%;
 
         & span {
             font-size: 12px;
